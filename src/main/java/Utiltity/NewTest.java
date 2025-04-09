@@ -24,7 +24,7 @@ public class NewTest {
   }
   @Test(priority = 2)
   public void enterURL() {
-	  driver.get("https://www.google.com");
+	  driver.get("https://www.google.com/");
   }
   @Test(priority = 3)
   public void enterdata() {
