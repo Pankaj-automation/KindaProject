@@ -26,14 +26,17 @@ public class SignUpTest {
 	public void Openbrowser() throws InterruptedException {
 		ChromeOptions options = new ChromeOptions();
 
-		// ✅ Unique user data directory to avoid session errors
-		String userProfile = System.getProperty("java.io.tmpdir") + "/" + UUID.randomUUID();
-		options.addArguments("--user-data-dir=" + userProfile);
+		  // 💡 UNIQUE user data dir
+		String uniqueDir = "/tmp/chrome-profile-" + System.currentTimeMillis();
+		options.addArguments("--user-data-dir=" + uniqueDir);
 
-		// ✅ Headless mode for Jenkins (optional if you're using GUI)
-		options.addArguments("--headless=new");
-		options.addArguments("--no-sandbox");
-		options.addArguments("--disable-dev-shm-usage");
+        String tempUserDataDir = System.getProperty("java.io.tmpdir") + "/chrome-user-data-" + UUID.randomUUID();
+        options.addArguments("--user-data-dir=" + tempUserDataDir);
+
+        // Optional but useful for Jenkins/Linux
+        options.addArguments("--headless=new");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
 
 		driver = new ChromeDriver();
 
