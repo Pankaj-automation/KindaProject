@@ -30,10 +30,12 @@ public class SignUpTest {
 	    public void setUp() {
 
 	    	ChromeOptions options = new ChromeOptions();
+	    	String userDataDir = "/tmp/chrome_profile_" + System.currentTimeMillis();
+	    	options.addArguments("--user-data-dir=" + userDataDir);
 	    	options.addArguments("--no-sandbox");
 	    	options.addArguments("--disable-dev-shm-usage");
-
 	    	WebDriver driver = new ChromeDriver(options);
+
 	    }
 
 	    @Test
