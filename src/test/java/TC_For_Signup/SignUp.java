@@ -25,6 +25,7 @@ public class SignUp {
 		driver = new ChromeDriver();
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
+		System.out.println(">>> Running SignUp Test");
 
 	}
 
@@ -33,7 +34,8 @@ public class SignUp {
 		driver.get("https://kinda.jcsoftwaresolution.in/");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//button[normalize-space()='Get Started Free']")).click();
-		
+		System.out.println(">>> Running SignUp Test");
+
 	}
 
 	@Test(priority = 3)
@@ -60,6 +62,7 @@ public class SignUp {
 		driver.findElement(By.xpath("//input[@placeholder='Password *']")).sendKeys("Admine51%%");
 		driver.findElement(By.xpath("//input[@placeholder='Confirm Password *']")).sendKeys("Admine51%%");
 		driver.findElement(By.xpath("//button[normalize-space()='Next']")).click();
+		System.out.println(">>> Running SignUp Test");
 
 	}
 
@@ -76,6 +79,7 @@ public class SignUp {
 		driver.findElement(By.xpath("//input[@placeholder='Zipcode *']")).sendKeys("34242");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//button[normalize-space()='Next']")).click();
+		System.out.println(">>> Running SignUp Test");
 
 	}
 
@@ -107,6 +111,7 @@ public class SignUp {
 		Thread.sleep(2000);
 		alert.accept();
 		driver.close();
+		System.out.println(">>> Running SignUp Test");
 
 		// button[normalize-space()='Ok']
 	}
