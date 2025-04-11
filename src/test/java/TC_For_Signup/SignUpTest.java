@@ -19,13 +19,14 @@ import org.testng.annotations.AfterTest;
 public class SignUpTest {
 	WebDriver driver;
 
-	@Test(priority = 1)
+	@Test
 	public void Openbrowser() throws InterruptedException {
 		driver = new ChromeDriver();
-		Thread.sleep(2000);
+		
 		driver.manage().window().maximize();
-		System.out.println(">>> Running SignUp Test");
-
+		Thread.sleep(2000);
+		driver.get("https://www.google.com");
+driver.close();
 	}
 
 
