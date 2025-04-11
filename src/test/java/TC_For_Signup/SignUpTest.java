@@ -42,7 +42,7 @@ public class SignUpTest {
 	    	// Optional: headless and stability flags
 	    	options.addArguments("--no-sandbox");
 	    	options.addArguments("--disable-dev-shm-usage");
-	    	options.addArguments("--headless=new");
+	    	//options.addArguments("--headless=new");
 
 	    	WebDriver driver = new ChromeDriver(options);	
 	        driver.get("https://www.google.com");
