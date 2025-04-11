@@ -21,7 +21,7 @@ public class SignUp {
 
 	@Test(priority = 1)
 	public void Openbrowser() throws InterruptedException {
-
+		System.out.println(">>> Running SignUp Test");
 		driver = new ChromeDriver();
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
