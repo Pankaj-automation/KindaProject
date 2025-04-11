@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-11T16:56:06 IST" name="Default suite" finished-at="2025-04-11T16:56:09 IST" duration-ms="2773">
+  <suite started-at="2025-04-11T17:13:50 IST" name="Default suite" finished-at="2025-04-11T17:13:53 IST" duration-ms="2947">
     <groups>
     </groups>
-    <test started-at="2025-04-11T16:56:06 IST" name="Default test" finished-at="2025-04-11T16:56:09 IST" duration-ms="2773">
+    <test started-at="2025-04-11T17:13:50 IST" name="Default test" finished-at="2025-04-11T17:13:53 IST" duration-ms="2947">
       <class name="TC_For_Signup.SignUpTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:TC_For_Signup.SignUpTest@74235045]" started-at="2025-04-11T16:56:06 IST" name="setUp" finished-at="2025-04-11T16:56:07 IST" duration-ms="1368" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TC_For_Signup.SignUpTest@74235045]" started-at="2025-04-11T17:13:50 IST" name="setUp" finished-at="2025-04-11T17:13:52 IST" duration-ms="1383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="Openbrowser()[pri:0, instance:TC_For_Signup.SignUpTest@74235045]" started-at="2025-04-11T16:56:07 IST" name="Openbrowser" finished-at="2025-04-11T16:56:08 IST" duration-ms="1244" status="PASS">
+        <test-method signature="Openbrowser()[pri:0, instance:TC_For_Signup.SignUpTest@74235045]" started-at="2025-04-11T17:13:52 IST" name="Openbrowser" finished-at="2025-04-11T17:13:53 IST" duration-ms="1387" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Openbrowser -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:TC_For_Signup.SignUpTest@74235045]" started-at="2025-04-11T16:56:08 IST" name="tearDown" finished-at="2025-04-11T16:56:09 IST" duration-ms="128" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:TC_For_Signup.SignUpTest@74235045]" started-at="2025-04-11T17:13:53 IST" name="tearDown" finished-at="2025-04-11T17:13:53 IST" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

@@ -29,20 +29,15 @@ public class SignUpTest {
 	    @BeforeClass
 	    public void setUp() {
 
-	        String userDataDir = System.getProperty("java.io.tmpdir") + "/chrome-profile-" + System.nanoTime();
-	        File profileDir = new File(userDataDir);
-	        profileDir.mkdir(); // Just in case
+	    	ChromeOptions options = new ChromeOptions();
+	    	options.addArguments("--no-sandbox");
+	    	options.addArguments("--disable-dev-shm-usage");
 
-	        ChromeOptions options = new ChromeOptions();
-	        options.addArguments("--user-data-dir=" + userDataDir);
-	        options.addArguments("--no-sandbox"); // For Jenkins/Linux
-	        options.addArguments("--disable-dev-shm-usage"); // For Jenkins/Linux
-
-	        driver = new ChromeDriver(options);
+	    	WebDriver driver = new ChromeDriver(options);
 	    }
 
 	    @Test
-	    public void Openbrowser() {
+	    public void Openbrowsesr() {
 	        driver.get("https://www.google.com");
 	        System.out.println("Page title is: " + driver.getTitle());
 	    }
