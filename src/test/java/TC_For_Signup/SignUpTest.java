@@ -33,23 +33,18 @@ public class SignUpTest {
 
 	    @Test
 	    public void setUp() throws IOException {
-	    	 try {
-	             // Terminate all Chrome processes
-	             Runtime.getRuntime().exec("pkill -9 chrome");
-	             // Proceed with setting up ChromeOptions and WebDriver
-	         } catch (IOException e) {
-	             e.printStackTrace();
-	         }
-	        File tempDir;
-	        tempDir = Files.createTempDir();
-			System.out.println("Temporary directory created at: " + tempDir.toString());
-			// Proceed with setting up ChromeOptions and WebDriver
-	        ChromeOptions options = new ChromeOptions();
-	        WebDriver driver = new ChromeDriver(options);
-	        options.addArguments("--headless=new");
+	    	ChromeOptions options = new ChromeOptions();
 
-	        options.addArguments("--no-sandbox");
-	        options.addArguments("--disable-dev-shm-usage");
+	    	// Create a clean user data dir
+	    	File tempProfile = Files.createTempDir();
+	    	options.addArguments("--user-data-dir=" + tempProfile.toString());
+
+	    	// Optional: headless and stability flags
+	    	options.addArguments("--no-sandbox");
+	    	options.addArguments("--disable-dev-shm-usage");
+	    	options.addArguments("--headless=new");
+
+	    	WebDriver driver = new ChromeDriver(options);	
 	        driver.get("https://www.google.com");
 	        System.out.println("Page title is: " + driver.getTitle());
 	            driver.quit();
