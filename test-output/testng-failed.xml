@@ -7,7 +7,7 @@
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="Openbrowser"/>
+          <include name="Openbrowsesr"/>
         </methods>
       </class> <!-- TC_For_Signup.SignUpTest -->
     </classes>

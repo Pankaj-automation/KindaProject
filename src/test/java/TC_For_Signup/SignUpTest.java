@@ -1,12 +1,17 @@
 package TC_For_Signup;
 
 import org.testng.annotations.Test;
+
+import com.google.common.io.Files;
+
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
 import java.io.File;
+import java.io.IOException;
+import java.nio.file.Path;
 import java.util.UUID;
 
 import org.apache.xmlbeans.impl.xb.xsdschema.FieldDocument.Field.Xpath;
@@ -26,31 +31,30 @@ import org.testng.annotations.BeforeClass;
 public class SignUpTest {
 	 WebDriver driver;
 
-	    @BeforeClass
-	    public void setUp() {
-
-	    	ChromeOptions options = new ChromeOptions();
-	    	String userDataDir = "/tmp/chrome_profile_" + System.currentTimeMillis();
-	    	options.addArguments("--user-data-dir=" + userDataDir);
-	    	options.addArguments("--no-sandbox");
-	    	options.addArguments("--disable-dev-shm-usage");
-	    	WebDriver driver = new ChromeDriver(options);
-
-	    }
-
 	    @Test
-	    public void Openbrowsesr() {
+	    public void setUp() throws IOException {
+	    	 try {
+	             // Terminate all Chrome processes
+	             Runtime.getRuntime().exec("pkill -9 chrome");
+	             // Proceed with setting up ChromeOptions and WebDriver
+	         } catch (IOException e) {
+	             e.printStackTrace();
+	         }
+	        File tempDir;
+	        tempDir = Files.createTempDir();
+			System.out.println("Temporary directory created at: " + tempDir.toString());
+			// Proceed with setting up ChromeOptions and WebDriver
+	        ChromeOptions options = new ChromeOptions();
+	        options.addArguments("--user-data-dir=" + tempDir.toString());
+	        WebDriver driver = new ChromeDriver(options);
+	        options.addArguments("--no-sandbox");
+	        options.addArguments("--disable-dev-shm-usage");
 	        driver.get("https://www.google.com");
 	        System.out.println("Page title is: " + driver.getTitle());
-	    }
-
-	    @AfterClass
-	    public void tearDown() {
-	        if (driver != null) {
 	            driver.quit();
 	        }
 	    }
-	}
+	
 
 	// button[normalize-space()='Ok']
 
