@@ -1,6 +1,5 @@
 package TC_For_Signup;
 
-
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
@@ -25,26 +24,24 @@ public class SignUpTest {
 
 	@Test
 	public void Openbrowser() throws InterruptedException {
-		  ChromeOptions options = new ChromeOptions();
+		ChromeOptions options = new ChromeOptions();
 
-	        // ✅ Unique user data directory to avoid session errors
-	        String userProfile = System.getProperty("java.io.tmpdir") + "/" + UUID.randomUUID();
-	        options.addArguments("--user-data-dir=" + userProfile);
+		// ✅ Unique user data directory to avoid session errors
+		String userProfile = System.getProperty("java.io.tmpdir") + "/" + UUID.randomUUID();
+		options.addArguments("--user-data-dir=" + userProfile);
 
-	        // ✅ Headless mode for Jenkins (optional if you're using GUI)
-	       // options.addArguments("--headless=new");
-	       // options.addArguments("--no-sandbox");
-	       // options.addArguments("--disable-dev-shm-usage");
-		
+		// ✅ Headless mode for Jenkins (optional if you're using GUI)
+		options.addArguments("--headless=new");
+		options.addArguments("--no-sandbox");
+		options.addArguments("--disable-dev-shm-usage");
+
 		driver = new ChromeDriver();
-		
+
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 		driver.get("https://www.google.com");
-driver.quit();
+		driver.quit();
 	}
 
-
-		// button[normalize-space()='Ok']
-	}
-
+	// button[normalize-space()='Ok']
+}
