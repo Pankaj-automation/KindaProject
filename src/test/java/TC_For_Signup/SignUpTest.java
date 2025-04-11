@@ -45,8 +45,9 @@ public class SignUpTest {
 			System.out.println("Temporary directory created at: " + tempDir.toString());
 			// Proceed with setting up ChromeOptions and WebDriver
 	        ChromeOptions options = new ChromeOptions();
-	        options.addArguments("--user-data-dir=" + tempDir.toString());
 	        WebDriver driver = new ChromeDriver(options);
+	        options.addArguments("--headless=new");
+
 	        options.addArguments("--no-sandbox");
 	        options.addArguments("--disable-dev-shm-usage");
 	        driver.get("https://www.google.com");
