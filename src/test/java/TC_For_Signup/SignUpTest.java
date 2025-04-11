@@ -41,7 +41,7 @@ public class SignUpTest {
 		driver.manage().window().maximize();
 		Thread.sleep(2000);
 		driver.get("https://www.google.com");
-driver.close();
+driver.quit();
 	}
 
 
