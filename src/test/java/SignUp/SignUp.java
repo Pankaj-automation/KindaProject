@@ -101,6 +101,7 @@ public class SignUp {
 		Alert alert = driver.switchTo().alert();
 		Thread.sleep(2000);
 		alert.accept();
+		driver.close();
 
 		// button[normalize-space()='Ok']
 	}
