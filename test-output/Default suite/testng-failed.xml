@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TC_For_Signup.NewTestas">
+      <class name="TC_For_Signup.SignUpTest">
         <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
           <include name="Openbrowser"/>
         </methods>
-      </class> <!-- TC_For_Signup.NewTestas -->
+      </class> <!-- TC_For_Signup.SignUpTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
