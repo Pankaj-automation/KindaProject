@@ -6,6 +6,7 @@ import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 import org.testng.annotations.Test;
 
+import java.io.File;
 import java.util.UUID;
 
 import org.apache.xmlbeans.impl.xb.xsdschema.FieldDocument.Field.Xpath;
@@ -28,11 +29,14 @@ public class SignUpTest {
 	    @BeforeClass
 	    public void setUp() {
 
-	        ChromeOptions options = new ChromeOptions();
+	        String userDataDir = System.getProperty("java.io.tmpdir") + "/chrome-profile-" + System.nanoTime();
+	        File profileDir = new File(userDataDir);
+	        profileDir.mkdir(); // Just in case
 
-	        // Generate a unique user-data-dir for every test run
-	        String userDataDir = System.getProperty("java.io.tmpdir") + "/chrome-profile-" + System.currentTimeMillis();
+	        ChromeOptions options = new ChromeOptions();
 	        options.addArguments("--user-data-dir=" + userDataDir);
+	        options.addArguments("--no-sandbox"); // For Jenkins/Linux
+	        options.addArguments("--disable-dev-shm-usage"); // For Jenkins/Linux
 
 	        driver = new ChromeDriver(options);
 	    }
