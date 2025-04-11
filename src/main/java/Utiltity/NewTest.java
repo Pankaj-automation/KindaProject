@@ -16,9 +16,10 @@ public class NewTest {
 	
 	WebDriver driver;
   @Test(priority = 1)
-  public void Openbrowser() {
+  public void Openbrowser() throws InterruptedException {
 	  
 	 driver = new ChromeDriver();
+	 Thread.sleep(2000);
 	 driver.manage().window().maximize();
 
   }
@@ -27,8 +28,9 @@ public class NewTest {
 	  driver.get("https://www.google.com/");
   }
   @Test(priority = 3)
-  public void enterdata() {
+  public void enterdata() throws InterruptedException {
 	  // Step 2: Find the Google search box by its name attribute
+		 Thread.sleep(2000);
       WebElement searchBox = driver.findElement(By.name("q"));
       searchBox.sendKeys("Test");
       searchBox.submit();
