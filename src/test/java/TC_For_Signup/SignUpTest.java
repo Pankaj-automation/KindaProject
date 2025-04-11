@@ -16,12 +16,11 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 
-public class SignUp {
+public class SignUpTest {
 	WebDriver driver;
 
 	@Test(priority = 1)
 	public void Openbrowser() throws InterruptedException {
-		System.out.println(">>> Running SignUp Test");
 		driver = new ChromeDriver();
 		Thread.sleep(2000);
 		driver.manage().window().maximize();
@@ -31,7 +30,6 @@ public class SignUp {
 
 	@Test(priority = 2)
 	public void enterurl() throws InterruptedException {
-		driver.get("https://kinda.jcsoftwaresolution.in/");
 		Thread.sleep(2000);
 		driver.findElement(By.xpath("//button[normalize-space()='Get Started Free']")).click();
 		System.out.println(">>> Running SignUp Test");
@@ -62,7 +60,6 @@ public class SignUp {
 		driver.findElement(By.xpath("//input[@placeholder='Password *']")).sendKeys("Admine51%%");
 		driver.findElement(By.xpath("//input[@placeholder='Confirm Password *']")).sendKeys("Admine51%%");
 		driver.findElement(By.xpath("//button[normalize-space()='Next']")).click();
-		System.out.println(">>> Running SignUp Test");
 
 	}
 
@@ -111,7 +108,6 @@ public class SignUp {
 		Thread.sleep(2000);
 		alert.accept();
 		driver.close();
-		System.out.println(">>> Running SignUp Test");
 
 		// button[normalize-space()='Ok']
 	}
