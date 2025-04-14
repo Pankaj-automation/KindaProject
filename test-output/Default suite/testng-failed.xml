@@ -5,9 +5,8 @@
     <classes>
       <class name="TC_For_Signup.SignUpTest">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="Openbrowsesr"/>
+          <include name="SignUpConfirmation"/>
+          <include name="RedirectToHome"/>
         </methods>
       </class> <!-- TC_For_Signup.SignUpTest -->
     </classes>
