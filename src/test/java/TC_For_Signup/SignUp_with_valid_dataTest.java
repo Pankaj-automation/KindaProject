@@ -1,9 +1,11 @@
 package TC_For_Signup;
 
 import com.google.common.io.Files;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import io.opentelemetry.api.logs.Logger;
 import net.datafaker.Faker;
+import utilities.Reuseable;
 
 import org.testng.annotations.Test;
 import java.io.File;
@@ -14,6 +16,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Random;
 import java.util.UUID;
+
+import org.apache.logging.log4j.LogManager;
 import org.apache.xmlbeans.impl.xb.xsdschema.FieldDocument.Field.Xpath;
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
@@ -29,33 +33,29 @@ import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
+import utilities.Reuseable;
 
-public class SignUpTest {
+
+public class SignUp_with_valid_dataTest {
 	WebDriver driver;
-
+Logger logger;
 	@Test(priority = 1)
-	public void setUp() throws IOException, InterruptedException {
-		ChromeOptions options = new ChromeOptions();
+	public void Setup() {
 
-		// options.addArguments("--headless=new");
+		Reuseable Reuseable = new Reuseable();
+		driver = Reuseable.Reuseable();
+		 logger = LogManager.getLogger(this.getClass());
 
-		// Enable notification of the browser
-
-		HashMap allow = new HashMap<>();
-		allow.put("profile.default_content_setting_values.notifications", 1); // 1 = allow
-		allow.put("profile.default_content_setting_values.geolocation", 1); // 1 = allow
-		options.setExperimentalOption("prefs", allow);
-		// Apply preferences to ChromeOptions
-
-		driver = new ChromeDriver(options);
-		driver.get("https://kinda.jcsoftwaresolution.in/");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		driver.findElement(By.xpath("//button[normalize-space()='Get Started Free']")).click();
 	}
 
 	@Test(priority = 2)
 	public void FirstStep() throws IOException, InterruptedException {
-		Thread.sleep(2000);
+		logger.info("*****Opening Browser*****");
+
+		logger.info("*****Started the SignUp_with_valid_dataTest*****");
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
+		driver.findElement(By.xpath("//button[normalize-space()='Get Started Free']")).click();
 		WebElement activeStep = driver.findElement(By.xpath("//div[contains(text(),'1')]")); // Update
 		String actualClass = activeStep.getAttribute("class");
 		String expectedClass = "activebar"; // Adjust as needed
@@ -239,7 +239,7 @@ public class SignUpTest {
 		// Validate the URL matches exactly
 		Assert.assertEquals(actualUrl, "https://kinda.jcsoftwaresolution.in/login",
 				"URL does not match the expected home page.");
-		
+		logger.info("*****Finished the SignUp_with_valid_dataTest*****");
 	}
 
 	@Test(priority = 12)

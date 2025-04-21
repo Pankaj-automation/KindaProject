@@ -3,12 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TC_For_Signup.SignUpTest">
+      <class name="TC_For_Signup.SignUp_with_valid_dataTest">
         <methods>
-          <include name="SignUpConfirmation"/>
+          <include name="SignUpFirstPage"/>
+          <include name="SignUpthirdPage"/>
+          <include name="StepThree"/>
           <include name="RedirectToHome"/>
+          <include name="SignUpSecondPage"/>
+          <include name="StepFour"/>
+          <include name="SignUpFfourthPage"/>
+          <include name="SignUpConfirmation"/>
+          <include name="StepTwo"/>
         </methods>
-      </class> <!-- TC_For_Signup.SignUpTest -->
+      </class> <!-- TC_For_Signup.SignUp_with_valid_dataTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

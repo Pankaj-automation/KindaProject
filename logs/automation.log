@@ -1,0 +1,16 @@
+11:58:40.301 [main] INFO  TC_For_Signup.Step_1_Alerts_verificationTest - *****Opening Browser*****
+11:58:40.303 [main] INFO  TC_For_Signup.Step_1_Alerts_verificationTest - *****Started the Step_1_Alerts_verificationTest*****
+11:58:41.062 [main] INFO  TC_For_Signup.Step_1_Alerts_verificationTest - *****Clicked on Get Started Free button*****
+11:58:42.443 [main] INFO  TC_For_Signup.Step_1_Alerts_verificationTest - *****Clicked on next button without Entering data*****
+11:58:42.465 [main] INFO  TC_For_Signup.Step_1_Alerts_verificationTest - *****Locate the role field*****
+11:58:42.477 [main] INFO  TC_For_Signup.Step_1_Alerts_verificationTest - *****Verify the actual result and expected result*****
+12:02:45.071 [main] INFO  TC_For_Signup.Step_1_Alerts_verificationTest - *****Opening Browser*****
+12:02:45.076 [main] INFO  TC_For_Signup.Step_1_Alerts_verificationTest - *****Started the Step_1_Alerts_verificationTest*****
+12:02:45.881 [main] INFO  TC_For_Signup.Step_1_Alerts_verificationTest - *****Clicked on Get Started Free button*****
+12:02:48.119 [main] INFO  TC_For_Signup.Step_1_Alerts_verificationTest - *****Clicked on next button without Entering data*****
+12:02:48.140 [main] INFO  TC_For_Signup.Step_1_Alerts_verificationTest - *****Locate the role field*****
+12:02:48.149 [main] INFO  TC_For_Signup.Step_1_Alerts_verificationTest - *****Verify the actual result and expected result*****
+12:02:48.155 [main] INFO  TC_For_Signup.Step_1_Alerts_verificationTest - *****Test Case Completed*****
+12:02:48.155 [main] INFO  TC_For_Signup.Step_1_Alerts_verificationTest - *****Finished Step_1_Alerts_verificationTest*****
+12:06:17.953 [main] INFO  TC_For_Signup.SignUp_with_valid_dataTest - *****Opening Browser*****
+12:06:17.956 [main] INFO  TC_For_Signup.SignUp_with_valid_dataTest - *****Started the Step_1_Alerts_verificationTest*****
