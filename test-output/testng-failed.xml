@@ -3,19 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TC_For_Signup.SignUp_with_valid_dataTest">
+      <class name="TC_For_Forgot_Password.Forgot_Password_fields_alertsTest">
         <methods>
-          <include name="SignUpFirstPage"/>
-          <include name="SignUpthirdPage"/>
-          <include name="StepThree"/>
-          <include name="RedirectToHome"/>
-          <include name="SignUpSecondPage"/>
-          <include name="StepFour"/>
-          <include name="SignUpFfourthPage"/>
-          <include name="SignUpConfirmation"/>
-          <include name="StepTwo"/>
+          <include name="Verification_code_field_alert"/>
+          <include name="Confrim_Password_field_alert"/>
+          <include name="Password_field_alert"/>
         </methods>
-      </class> <!-- TC_For_Signup.SignUp_with_valid_dataTest -->
+      </class> <!-- TC_For_Forgot_Password.Forgot_Password_fields_alertsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

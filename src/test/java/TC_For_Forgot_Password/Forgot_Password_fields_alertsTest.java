@@ -1,0 +1,98 @@
+package TC_For_Forgot_Password;
+
+import java.io.IOException;
+import java.time.Duration;
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.testng.Assert;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+import TC_For_Signup.Carrier_Step_1_Alerts_verificationTest;
+import utilities.Reuseable;
+
+public class Forgot_Password_fields_alertsTest {
+	WebDriver driver;
+	Reuseable testdata;
+	Logger logger;
+
+	@Test(priority = 1)
+	public void Setup() {
+		testdata = new Reuseable(); // Create instance of Reuseable
+		driver = testdata.Reuseable1(); // Initialize driver from Reuseable class
+		logger = LogManager.getLogger(this.getClass());
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		logger.info("*Started Forgot_Password_fields_alertsTest*");
+
+	}
+
+	@Test(priority = 2)
+	public void Email_field_alert() throws InterruptedException {
+		driver.findElement(By.xpath("//p[@class='text-sm font-medium']")).click();
+		driver.findElement(By.xpath("//a[normalize-space()='Forgot Password?']")).click();
+		driver.findElement(By.xpath("//button[normalize-space()='Send Recovery Email']")).click();
+
+		WebElement roleSelect = driver.findElement(By.xpath("//input[@placeholder='Email *']"));
+
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+		String validationMessage = (String) js.executeScript("return arguments[0].validationMessage;", roleSelect);
+
+		logger.info("Email field Validation Message: Expected Result: Please fill in this field.  "
+				+ "Actual Result: " + validationMessage);
+
+		SoftAssert softAssert = new SoftAssert();
+		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		softAssert.assertAll();
+		Thread.sleep(1000);
+		driver.findElement(By.xpath("//input[@placeholder='Email *']")).sendKeys("thr");
+		WebElement roleSelect1 = driver.findElement(By.xpath("//input[@placeholder='Email *']"));
+
+		JavascriptExecutor js1 = (JavascriptExecutor) driver;
+		String validationMessage1 = (String) js1.executeScript("return arguments[0].validationMessage;", roleSelect);
+		Thread.sleep(1000);
+
+		logger.info("If user try to enter invalid email format: " + validationMessage1);
+		driver.findElement(By.xpath("//input[@placeholder='Email *']")).clear();
+		Thread.sleep(1000);
+
+		driver.findElement(By.xpath("//input[@placeholder='Email *']")).sendKeys("threestaff@yopmail.com");
+		driver.findElement(By.xpath("//button[normalize-space()='Send Recovery Email']")).click();
+
+	}
+
+	@Test(priority = 3)
+	public void Change_Password_Page_fields_alert() throws InterruptedException {
+		driver.findElement(By.xpath("//button[normalize-space()='Save Password']")).click();
+		WebElement otpfield = driver.findElement(By.xpath("(//div[@class='text-red-500 mb-2 text-xs d-block'])[1]"));
+
+		logger.info("Verification code field alert: " + otpfield.getText());
+		WebElement paswrd = driver
+				.findElement(By.xpath("(//div[@class='invalid-feedback block star text-[12px]'])[1]"));
+
+		logger.info("If password is not valid: " + paswrd.getText());
+		Thread.sleep(1000);
+
+		driver.findElement(By.xpath("//input[@placeholder='Password *']")).sendKeys("Admine51%%");
+		Thread.sleep(1000);
+
+		WebElement confirmpaswrd = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[4]"));
+
+		logger.info("If password is not matched: " + confirmpaswrd.getText());
+		Thread.sleep(1000);
+
+	}
+
+	@Test(priority = 4)
+	public void QuitBrowser() throws IOException, InterruptedException {
+		Thread.sleep(1000);
+		if (driver != null) {
+			driver.quit();
+		}
+	}
+
+}

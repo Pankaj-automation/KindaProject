@@ -1,5 +1,8 @@
 package TC_For_Signup;
 
+import org.testng.annotations.Test;
+
+import org.testng.AssertJUnit;
 import com.google.common.io.Files;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -35,16 +38,16 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
 import utilities.Reuseable;
 
-
-public class SignUp_with_valid_dataTest {
+public class Carrier_SignUp_Test {
 	WebDriver driver;
-Logger logger;
+	Logger logger;
+
 	@Test(priority = 1)
 	public void Setup() {
 
 		Reuseable Reuseable = new Reuseable();
-		driver = Reuseable.Reuseable();
-		 logger = LogManager.getLogger(this.getClass());
+		driver = Reuseable.Reuseable1();
+		logger = LogManager.getLogger(this.getClass());
 
 	}
 
@@ -52,7 +55,7 @@ Logger logger;
 	public void FirstStep() throws IOException, InterruptedException {
 		logger.info("*****Opening Browser*****");
 
-		logger.info("*****Started the SignUp_with_valid_dataTest*****");
+		logger.info("*****Started the Carrier_SignUp_Test*****");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
 		driver.findElement(By.xpath("//button[normalize-space()='Get Started Free']")).click();
@@ -239,7 +242,7 @@ Logger logger;
 		// Validate the URL matches exactly
 		Assert.assertEquals(actualUrl, "https://kinda.jcsoftwaresolution.in/login",
 				"URL does not match the expected home page.");
-		logger.info("*****Finished the SignUp_with_valid_dataTest*****");
+		logger.info("*****Finished the Carrier_SignUp_Test*****");
 	}
 
 	@Test(priority = 12)
