@@ -3,8 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="TC_For_Signup.SignUp_with_valid_dataTest"/>
-     <class name="TC_For_Signup.Step_1_Alerts_verificationTest"/>
+     
+      <class name="TC_For_Forgot_Password.Forgot_Password_fields_alertsTest"/>
+      <class name="TC_For_Forgot_Password.Forgot_PasswordTest"/>
+     
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

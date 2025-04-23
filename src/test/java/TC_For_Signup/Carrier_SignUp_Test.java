@@ -1,6 +1,8 @@
 package TC_For_Signup;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 
 import org.testng.AssertJUnit;
 import com.google.common.io.Files;
@@ -62,12 +64,12 @@ public class Carrier_SignUp_Test {
 		WebElement activeStep = driver.findElement(By.xpath("//div[contains(text(),'1')]")); // Update
 		String actualClass = activeStep.getAttribute("class");
 		String expectedClass = "activebar"; // Adjust as needed
-		Assert.assertEquals(actualClass, expectedClass, "Active step class mismatch!");
+		AssertJUnit.assertEquals(actualClass, expectedClass, "Active step class mismatch!");
 		if (actualClass.equals(expectedClass)) {
-			System.out.println("First Step - Step One is activated");
+			logger.info("First Step - Step One is activated");
 
 		} else {
-			System.out.println("First Step - Step One is not activated");
+			logger.info("First Step - Step One is not activated");
 		}
 
 	}
@@ -87,7 +89,7 @@ public class Carrier_SignUp_Test {
 		Thread.sleep(1000);
 		Select sel = new Select(drop);
 		sel.selectByIndex(1);
-		Assert.assertEquals(sel.getFirstSelectedOption().getText(), "Carrier", "❌ Dropdown 1 selection failed");
+		AssertJUnit.assertEquals(sel.getFirstSelectedOption().getText(), "Carrier", "❌ Dropdown 1 selection failed");
 		driver.findElement(By.xpath("//input[@placeholder='First Name *']")).sendKeys(firstName);
 		driver.findElement(By.xpath("//input[@placeholder='Last Name (Optional)']")).sendKeys(lastName);
 		driver.findElement(By.xpath("//input[@placeholder='Email address *']")).sendKeys(email);
@@ -98,12 +100,12 @@ public class Carrier_SignUp_Test {
 		Thread.sleep(1000);
 		Select sel1 = new Select(drop1);
 		sel1.selectByIndex(2);
-		Assert.assertEquals(sel1.getFirstSelectedOption().getText(), "Manager", "❌ Dropdown 2 selection failed");
+		AssertJUnit.assertEquals(sel1.getFirstSelectedOption().getText(), "Manager", "❌ Dropdown 2 selection failed");
 		driver.findElement(By.xpath("//input[@placeholder='Password *']")).sendKeys(password);
 		driver.findElement(By.xpath("//input[@placeholder='Confirm Password *']")).sendKeys(password);
 		driver.findElement(By.xpath("(//button[normalize-space()='Next'])[1]")).click();
 
-		System.out.println("✅ Test passed: Sign Up First Page Form filled and progressed successfully.");
+		logger.info("✅ Test passed: Sign Up First Page Form filled and progressed successfully.");
 
 	}
 
@@ -113,12 +115,12 @@ public class Carrier_SignUp_Test {
 		WebElement activeStep = driver.findElement(By.xpath("//div[contains(text(),'2')]")); // Update
 		String actualClass = activeStep.getAttribute("class");
 		String expectedClass = "activebar"; // Adjust as needed
-		Assert.assertEquals(actualClass, expectedClass, "Active step class mismatch!");
+		AssertJUnit.assertEquals(actualClass, expectedClass, "Active step class mismatch!");
 		if (actualClass.equals(expectedClass)) {
-			System.out.println("Step Two - Step two is activated");
+			logger.info("Step Two - Step two is activated");
 
 		} else {
-			System.out.println("Step Two - Step two is not activated");
+			logger.info("Step Two - Step two is not activated");
 		}
 
 	}
@@ -144,7 +146,7 @@ public class Carrier_SignUp_Test {
 		// driver.findElement(By.xpath("//input[@placeholder='Country
 		// *']")).sendKeys("India");
 		driver.findElement(By.xpath("//button[normalize-space()='Next']")).click();
-		System.out.println("✅ Test passed: Sign Up Second Page Form filled and progressed successfully.");
+		logger.info("✅ Test passed: Sign Up Second Page Form filled and progressed successfully.");
 	}
 
 	@Test(priority = 6)
@@ -155,12 +157,12 @@ public class Carrier_SignUp_Test {
 		WebElement activeStep = driver.findElement(By.xpath("//div[contains(text(),'3')]")); // Update
 		String actualClass = activeStep.getAttribute("class");
 		String expectedClass = "activebar"; // Adjust as needed
-		Assert.assertEquals(actualClass, expectedClass, "Active step class mismatch!");
+		AssertJUnit.assertEquals(actualClass, expectedClass, "Active step class mismatch!");
 		if (actualClass.equals(expectedClass)) {
-			System.out.println("Step Three - Step three is activated");
+			logger.info("Step Three - Step three is activated");
 
 		} else {
-			System.out.println("Step Three - Step three is not activated");
+			logger.info("Step Three - Step three is not activated");
 		}
 	}
 
@@ -174,7 +176,7 @@ public class Carrier_SignUp_Test {
 		driver.findElement(By.xpath("//input[@placeholder='DOT # *']")).sendKeys("232");
 
 		driver.findElement(By.xpath("//button[normalize-space()='Next']")).click();
-		System.out.println("✅ Test passed: Sign Up Third Page Form filled and progressed successfully.");
+		logger.info("✅ Test passed: Sign Up Third Page Form filled and progressed successfully.");
 	}
 
 	@Test(priority = 8)
@@ -185,12 +187,12 @@ public class Carrier_SignUp_Test {
 		WebElement activeStep = driver.findElement(By.xpath("//div[contains(text(),'4')]")); // Update
 		String actualClass = activeStep.getAttribute("class");
 		String expectedClass = "activebar"; // Adjust as needed
-		Assert.assertEquals(actualClass, expectedClass, "Active step class mismatch!");
+		AssertJUnit.assertEquals(actualClass, expectedClass, "Active step class mismatch!");
 		if (actualClass.equals(expectedClass)) {
-			System.out.println("Step Four - Step four is activated");
+			logger.info("Step Four - Step four is activated");
 
 		} else {
-			System.out.println("Step Four - Step four is not activated");
+			logger.info("Step Four - Step four is not activated");
 		}
 	}
 
@@ -204,7 +206,7 @@ public class Carrier_SignUp_Test {
 		driver.findElement(By.xpath("//input[@id='dry_van']")).click();
 		driver.findElement(By.xpath("//input[@id='checkbox1']")).click();
 		driver.findElement(By.xpath("//button[normalize-space()='Sign Up']")).click();
-		System.out.println("✅ Test passed: Sign Up Fourth Page Form filled and progressed successfully.");
+		logger.info("✅ Test passed: Sign Up Fourth Page Form filled and progressed successfully.");
 	}
 
 	@Test(priority = 10)
@@ -215,17 +217,17 @@ public class Carrier_SignUp_Test {
 		WebElement titleElement = driver
 				.findElement(By.xpath("//h5[normalize-space()='Thank you for Your Registration .']"));
 		String titleText = titleElement.getText();
-		System.out.println("Modal Title: " + titleText);
+		logger.info("Modal Title: " + titleText);
 
 		// 3. Grab the subtext (below the title)
 		WebElement messageElement = driver
 				.findElement(By.xpath("//h5[contains(text(),'Please wait until your profile verification is com')]"));
 		String messageText = messageElement.getText();
-		System.out.println("Modal Message: " + messageText);
+		logger.info("Modal Message: " + messageText);
 
 		// 4. Assert the contents
-		Assert.assertEquals(titleText.trim(), "Thank you for Your Registration .");
-		Assert.assertEquals(messageText.trim(), "Please wait until your profile verification is completed.");
+		AssertJUnit.assertEquals(titleText.trim(), "Thank you for Your Registration .");
+		AssertJUnit.assertEquals(messageText.trim(), "Please wait until your profile verification is completed.");
 
 		// 5. Click the OK button
 		WebElement okButton = driver.findElement(By.xpath("//button[normalize-space()='Ok']"));
@@ -237,10 +239,10 @@ public class Carrier_SignUp_Test {
 	public void RedirectToHome() throws IOException, InterruptedException {
 		Thread.sleep(2000);
 		String actualUrl = driver.getCurrentUrl();
-		System.out.println("Current URL: " + actualUrl);
+		logger.info("Current URL: " + actualUrl);
 
 		// Validate the URL matches exactly
-		Assert.assertEquals(actualUrl, "https://kinda.jcsoftwaresolution.in/login",
+		AssertJUnit.assertEquals(actualUrl, "https://kinda.jcsoftwaresolution.in/login",
 				"URL does not match the expected home page.");
 		logger.info("*****Finished the Carrier_SignUp_Test*****");
 	}

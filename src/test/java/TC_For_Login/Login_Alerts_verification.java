@@ -1,5 +1,7 @@
 package TC_For_Login;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 import java.time.Duration;
 
@@ -43,7 +45,7 @@ public class Login_Alerts_verification {
 		logger.info("Enter Email field Validation Message:Expected Result: Please fill in this field.  "
 				+ "Actual Result: " + validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		logger.info("*Verified Email field alert*");
 		driver.findElement(By.xpath("//input[@placeholder='Enter Email *']")).sendKeys("Carrierthree@yopmail.com");
@@ -65,7 +67,7 @@ public class Login_Alerts_verification {
 		logger.info("Enter Password field Validation Message:Expected Result: Please fill in this field.  "
 				+ "Actual Result: " + validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		driver.findElement(By.xpath("//input[@placeholder='Enter Password *']")).sendKeys("Carrier@123");
 

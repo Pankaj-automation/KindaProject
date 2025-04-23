@@ -1,29 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-22T18:43:46 IST" name="Default suite" finished-at="2025-04-22T18:44:05 IST" duration-ms="19076">
+  <suite started-at="2025-04-23T11:32:58 IST" name="Suite" finished-at="2025-04-23T11:33:32 IST" duration-ms="33329">
     <groups>
     </groups>
-    <test started-at="2025-04-22T18:43:46 IST" name="Default test" finished-at="2025-04-22T18:44:05 IST" duration-ms="19076">
-      <class name="TC_For_Forgot_Password.Forgot_Password_fields_alertsTest">
-        <test-method signature="Setup()[pri:1, instance:TC_For_Forgot_Password.Forgot_Password_fields_alertsTest@7d8995e]" started-at="2025-04-22T18:43:46 IST" name="Setup" finished-at="2025-04-22T18:43:52 IST" duration-ms="5479" status="PASS">
+    <test started-at="2025-04-23T11:32:58 IST" name="Test" finished-at="2025-04-23T11:33:32 IST" duration-ms="33329">
+      <class name="TC_For_Forgot_Password.Forgot_PasswordTest">
+        <test-method signature="Setup()[pri:1, instance:TC_For_Forgot_Password.Forgot_PasswordTest@c730b35]" started-at="2025-04-23T11:33:17 IST" name="Setup" finished-at="2025-04-23T11:33:22 IST" duration-ms="4764" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method signature="Email_field_alert()[pri:2, instance:TC_For_Forgot_Password.Forgot_Password_fields_alertsTest@7d8995e]" started-at="2025-04-22T18:43:52 IST" name="Email_field_alert" finished-at="2025-04-22T18:43:58 IST" duration-ms="6627" status="PASS">
+        <test-method signature="Forgot_Password()[pri:2, instance:TC_For_Forgot_Password.Forgot_PasswordTest@c730b35]" started-at="2025-04-23T11:33:22 IST" name="Forgot_Password" finished-at="2025-04-23T11:33:29 IST" duration-ms="7290" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Email_field_alert -->
-        <test-method signature="Change_Password_Page_fields_alert()[pri:3, instance:TC_For_Forgot_Password.Forgot_Password_fields_alertsTest@7d8995e]" started-at="2025-04-22T18:43:58 IST" name="Change_Password_Page_fields_alert" finished-at="2025-04-22T18:44:04 IST" duration-ms="5824" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Change_Password_Page_fields_alert -->
-        <test-method signature="QuitBrowser()[pri:4, instance:TC_For_Forgot_Password.Forgot_Password_fields_alertsTest@7d8995e]" started-at="2025-04-22T18:44:04 IST" name="QuitBrowser" finished-at="2025-04-22T18:44:05 IST" duration-ms="1090" status="PASS">
+        </test-method> <!-- Forgot_Password -->
+        <test-method signature="QuitBrowser()[pri:3, instance:TC_For_Forgot_Password.Forgot_PasswordTest@c730b35]" started-at="2025-04-23T11:33:29 IST" name="QuitBrowser" finished-at="2025-04-23T11:33:31 IST" duration-ms="2073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:TC_For_Forgot_Password.Forgot_PasswordTest@c730b35]" started-at="2025-04-23T11:33:31 IST" name="tearDownReport" finished-at="2025-04-23T11:33:32 IST" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
+      </class> <!-- TC_For_Forgot_Password.Forgot_PasswordTest -->
+      <class name="TC_For_Forgot_Password.Forgot_Password_fields_alertsTest">
+        <test-method signature="Setup()[pri:1, instance:TC_For_Forgot_Password.Forgot_Password_fields_alertsTest@4135c3b]" started-at="2025-04-23T11:32:58 IST" name="Setup" finished-at="2025-04-23T11:33:04 IST" duration-ms="5341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="Email_field_alert()[pri:2, instance:TC_For_Forgot_Password.Forgot_Password_fields_alertsTest@4135c3b]" started-at="2025-04-23T11:33:04 IST" name="Email_field_alert" finished-at="2025-04-23T11:33:10 IST" duration-ms="6544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Email_field_alert -->
+        <test-method signature="Change_Password_Page_fields_alert()[pri:3, instance:TC_For_Forgot_Password.Forgot_Password_fields_alertsTest@4135c3b]" started-at="2025-04-23T11:33:10 IST" name="Change_Password_Page_fields_alert" finished-at="2025-04-23T11:33:16 IST" duration-ms="5873" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Change_Password_Page_fields_alert -->
+        <test-method signature="QuitBrowser()[pri:4, instance:TC_For_Forgot_Password.Forgot_Password_fields_alertsTest@4135c3b]" started-at="2025-04-23T11:33:16 IST" name="QuitBrowser" finished-at="2025-04-23T11:33:17 IST" duration-ms="1096" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- QuitBrowser -->
+        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:TC_For_Forgot_Password.Forgot_Password_fields_alertsTest@4135c3b]" started-at="2025-04-23T11:33:17 IST" name="tearDownReport" finished-at="2025-04-23T11:33:17 IST" duration-ms="262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownReport -->
       </class> <!-- TC_For_Forgot_Password.Forgot_Password_fields_alertsTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

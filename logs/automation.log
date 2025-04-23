@@ -612,3 +612,25 @@ Actual Result: Please select a location from the suggestions.
 18:44:01.376 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - Verification code field alert: Verification is required
 18:44:01.398 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - If password is not valid: Password must be at least 8 characters long, contain an uppercase letter, a lowercase letter, a number, and a special character.
 18:44:03.506 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - If password is not matched: Password and ConfirmPassword did not matched
+10:24:47.447 [main] INFO  TC_For_Signup.Carrier_SignUp_Test - *****Opening Browser*****
+10:24:47.453 [main] INFO  TC_For_Signup.Carrier_SignUp_Test - *****Started the Carrier_SignUp_Test*****
+10:25:54.007 [main] INFO  TC_For_Signup.Carrier_SignUp_Test - *****Opening Browser*****
+10:25:54.011 [main] INFO  TC_For_Signup.Carrier_SignUp_Test - *****Started the Carrier_SignUp_Test*****
+10:26:17.832 [main] INFO  TC_For_Signup.Carrier_SignUp_Test - *****Finished the Carrier_SignUp_Test*****
+11:30:02.059 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - *Started Forgot_Password_fields_alertsTest*
+11:30:07.146 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+11:30:09.252 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - If user try to enter invalid email format: Please include an '@' in the email address. 'thr' is missing an '@'.
+11:30:13.187 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - Verification code field alert: Verification is required
+11:30:13.217 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - If password is not valid: Password must be at least 8 characters long, contain an uppercase letter, a lowercase letter, a number, and a special character.
+11:30:15.310 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - If password is not matched: Password and ConfirmPassword did not matched
+11:30:16.319 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - *Finished Forgot_Password_fields_alertsTest*
+11:33:04.060 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - *Started Forgot_Password_fields_alertsTest*
+11:33:07.318 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+11:33:09.428 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - If user try to enter invalid email format: Please include an '@' in the email address. 'thr' is missing an '@'.
+11:33:13.362 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - Verification code field alert: Verification is required
+11:33:13.389 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - If password is not valid: Password must be at least 8 characters long, contain an uppercase letter, a lowercase letter, a number, and a special character.
+11:33:15.480 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - If password is not matched: Password and ConfirmPassword did not matched
+11:33:16.489 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - *Finished Forgot_Password_fields_alertsTest*
+11:33:22.619 [main] INFO  TC_For_Forgot_Password.Forgot_PasswordTest - *Started Forgot_PasswordTest*
+11:33:29.912 [main] INFO  TC_For_Forgot_Password.Forgot_PasswordTest - *Finished Forgot_PasswordTest*
+11:33:31.987 [main] INFO  TC_For_Forgot_Password.Forgot_PasswordTest - *Finished Forgot_PasswordTest*

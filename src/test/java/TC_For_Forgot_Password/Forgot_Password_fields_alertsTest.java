@@ -1,5 +1,8 @@
 package TC_For_Forgot_Password;
 
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 import java.time.Duration;
 
@@ -13,21 +16,30 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.aventstack.extentreports.ExtentReports;
+import com.aventstack.extentreports.ExtentTest;
+
 import TC_For_Signup.Carrier_Step_1_Alerts_verificationTest;
+import utilities.Extentreportmanager;
 import utilities.Reuseable;
 
 public class Forgot_Password_fields_alertsTest {
 	WebDriver driver;
 	Reuseable testdata;
 	Logger logger;
+	ExtentReports extent;
+	ExtentTest test;
 
 	@Test(priority = 1)
 	public void Setup() {
 		testdata = new Reuseable(); // Create instance of Reuseable
 		driver = testdata.Reuseable1(); // Initialize driver from Reuseable class
-		logger = LogManager.getLogger(this.getClass());
+		logger = LogManager.getLogger(this.getClass()); // get logs if needed
+		extent = Extentreportmanager.getExtentReports(); // get detailed report
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		test = extent.createTest("Forgot_Password_fields_alertsTest");
 		logger.info("*Started Forgot_Password_fields_alertsTest*");
+		test.info("*Started Forgot_Password_fields_alertsTest*");
 
 	}
 
@@ -42,11 +54,13 @@ public class Forgot_Password_fields_alertsTest {
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		String validationMessage = (String) js.executeScript("return arguments[0].validationMessage;", roleSelect);
 
-		logger.info("Email field Validation Message: Expected Result: Please fill in this field.  "
-				+ "Actual Result: " + validationMessage);
+		logger.info("Email field Validation Message: Expected Result: Please fill in this field.  " + "Actual Result: "
+				+ validationMessage);
+		test.pass("Email field Validation Message: Expected Result: Please fill in this field.  " + "Actual Result: "
+				+ validationMessage);
 
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		Thread.sleep(1000);
 		driver.findElement(By.xpath("//input[@placeholder='Email *']")).sendKeys("thr");
@@ -57,6 +71,8 @@ public class Forgot_Password_fields_alertsTest {
 		Thread.sleep(1000);
 
 		logger.info("If user try to enter invalid email format: " + validationMessage1);
+		test.pass("If user try to enter invalid email format: " + validationMessage1);
+
 		driver.findElement(By.xpath("//input[@placeholder='Email *']")).clear();
 		Thread.sleep(1000);
 
@@ -71,19 +87,28 @@ public class Forgot_Password_fields_alertsTest {
 		WebElement otpfield = driver.findElement(By.xpath("(//div[@class='text-red-500 mb-2 text-xs d-block'])[1]"));
 
 		logger.info("Verification code field alert: " + otpfield.getText());
+		test.pass("Verification code field alert: " + otpfield.getText());
+
 		WebElement paswrd = driver
 				.findElement(By.xpath("(//div[@class='invalid-feedback block star text-[12px]'])[1]"));
 
 		logger.info("If password is not valid: " + paswrd.getText());
+		test.pass("If password is not valid: " + paswrd.getText());
+
 		Thread.sleep(1000);
 
 		driver.findElement(By.xpath("//input[@placeholder='Password *']")).sendKeys("Admine51%%");
 		Thread.sleep(1000);
 
-		WebElement confirmpaswrd = driver.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[4]"));
+		WebElement confirmpaswrd = driver
+				.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[4]"));
 
 		logger.info("If password is not matched: " + confirmpaswrd.getText());
+		test.pass("If password is not matched: " + confirmpaswrd.getText());
+
 		Thread.sleep(1000);
+		logger.info("*Finished Forgot_Password_fields_alertsTest*");
+		test.info("*Finished Forgot_Password_fields_alertsTest*");
 
 	}
 
@@ -95,4 +120,8 @@ public class Forgot_Password_fields_alertsTest {
 		}
 	}
 
+	@AfterClass
+	public void tearDownReport() {
+		extent.flush(); // Writes everything to the file
+	}
 }

@@ -1,5 +1,7 @@
 package TC_For_Login;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 import java.time.Duration;
 
@@ -38,7 +40,7 @@ void Enter_Valid_U_P() throws InterruptedException {
 	Thread.sleep(2000);
 	String url = driver.getCurrentUrl();
 	logger.info("Expected URL: https://kinda.jcsoftwaresolution.in/task " + "Current URL"+url);
-	Assert.assertEquals(url, "https://kinda.jcsoftwaresolution.in/task");
+	AssertJUnit.assertEquals(url, "https://kinda.jcsoftwaresolution.in/task");
 	logger.info("*Finished Driver_LoginTest*");
 
 }

@@ -1,6 +1,8 @@
 package TC_For_Login;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 
 import utilities.Reuseable;
 
@@ -47,7 +49,7 @@ void Enter_Valid_U_P() throws InterruptedException {
 	Thread.sleep(2000);
 	String url = driver.getCurrentUrl();
 	logger.info("Expected URL: https://kinda.jcsoftwaresolution.in/profile " + "Current URL"+url);
-	Assert.assertEquals(url, "https://kinda.jcsoftwaresolution.in/profile");
+	AssertJUnit.assertEquals(url, "https://kinda.jcsoftwaresolution.in/profile");
 	logger.info("*Finished Carrier_LoginTest*");
 
 }

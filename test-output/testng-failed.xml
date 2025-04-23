@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TC_For_Forgot_Password.Forgot_Password_fields_alertsTest">
+      <class name="TC_For_Forgot_Password.Forgot_PasswordTest">
         <methods>
-          <include name="Verification_code_field_alert"/>
-          <include name="Confrim_Password_field_alert"/>
-          <include name="Password_field_alert"/>
+          <include name="Forgot_Password"/>
+          <include name="Setup"/>
         </methods>
-      </class> <!-- TC_For_Forgot_Password.Forgot_Password_fields_alertsTest -->
+      </class> <!-- TC_For_Forgot_Password.Forgot_PasswordTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

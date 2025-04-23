@@ -1,5 +1,7 @@
 package TC_For_Signup;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -75,7 +77,7 @@ public class Carrier_Step_2_Alerts_verificationTest {
 		logger.info("State field Validation alert: Expected Result: Please fill in this field.  " + "Actual Result: "
 				+ validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		driver.findElement(By.xpath("//input[@placeholder='State *']")).sendKeys("Punjab");
 		logger.info("*Verified State field alert*");
@@ -92,7 +94,7 @@ public class Carrier_Step_2_Alerts_verificationTest {
 		logger.info("City field Validation alert: Expected Result: Please fill in this field.  " + "Actual Result: "
 				+ validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		logger.info("*Verified City field alert*");
 		driver.findElement(By.xpath("//input[@placeholder='City *']")).sendKeys("Sahibzada");
@@ -109,7 +111,7 @@ public class Carrier_Step_2_Alerts_verificationTest {
 		logger.info("Zipcode field Validation alert: Expected Result: Please fill in this field.  " + "Actual Result: "
 				+ validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		logger.info("**Verified Zipcode field alert*");
 		driver.findElement(By.xpath("(//input[@placeholder='Zipcode *'])[1]")).sendKeys("324324");
@@ -126,7 +128,7 @@ public class Carrier_Step_2_Alerts_verificationTest {
 		logger.info("Country field Validation alert: Expected Result: Please fill in this field.  " + "Actual Result: "
 				+ validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		logger.info("**Verified Country field alert*");
 		driver.findElement(By.xpath("(//input[@placeholder='Country *'])[1]")).sendKeys("India");
@@ -144,7 +146,7 @@ public class Carrier_Step_2_Alerts_verificationTest {
 		logger.info("Location field Validation Message: Expected Result: Please select a location from the suggestions."
 				+ "Actual Result: " + ms);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(ms, "Please select a location from the suggestions.");
+		AssertJUnit.assertEquals(ms, "Please select a location from the suggestions.");
 		softAssert.assertAll();
 		logger.info("**Verified Location field alert*");
 

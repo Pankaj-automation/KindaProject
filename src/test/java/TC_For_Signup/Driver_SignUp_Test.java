@@ -1,5 +1,7 @@
 package TC_For_Signup;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
@@ -47,11 +49,11 @@ public class Driver_SignUp_Test {
 		Thread.sleep(1000);
 		Select sel = new Select(drop);
 		sel.selectByIndex(2);
-		Assert.assertEquals(sel.getFirstSelectedOption().getText(), "Driver", "❌ Dropdown 1 selection failed");
+		AssertJUnit.assertEquals(sel.getFirstSelectedOption().getText(), "Driver", "❌ Dropdown 1 selection failed");
 		WebElement activeStep = driver.findElement(By.xpath("(//div[@class='activebar'])[1]"));
 		String actualClass = activeStep.getAttribute("class");
 		String expectedClass = "activebar"; // Adjust as needed
-		Assert.assertEquals(actualClass, expectedClass, "Active step class mismatch!");
+		AssertJUnit.assertEquals(actualClass, expectedClass, "Active step class mismatch!");
 		if (actualClass.equals(expectedClass)) {
 			logger.info("First Step - Step One is activated");
 
@@ -83,7 +85,7 @@ public class Driver_SignUp_Test {
 		WebElement activeStep = driver.findElement(By.xpath("//div[contains(text(),'2')]")); // Update
 		String actualClass = activeStep.getAttribute("class");
 		String expectedClass = "activebar"; // Adjust as needed
-		Assert.assertEquals(actualClass, expectedClass, "Active step class mismatch!");
+		AssertJUnit.assertEquals(actualClass, expectedClass, "Active step class mismatch!");
 		if (actualClass.equals(expectedClass)) {
 			logger.info("Step Two - Step two is activated");
 
@@ -117,7 +119,7 @@ public class Driver_SignUp_Test {
 		WebElement activeStep = driver.findElement(By.xpath("//div[contains(text(),'3')]")); // Update
 		String actualClass = activeStep.getAttribute("class");
 		String expectedClass = "activebar"; // Adjust as needed
-		Assert.assertEquals(actualClass, expectedClass, "Active step class mismatch!");
+		AssertJUnit.assertEquals(actualClass, expectedClass, "Active step class mismatch!");
 		if (actualClass.equals(expectedClass)) {
 			logger.info("Step Three - Step three is activated");
 
@@ -158,8 +160,8 @@ public class Driver_SignUp_Test {
 		String messageText = messageElement.getText();
 		logger.info("Modal Message: " + messageText);
 		// 4. Assert the contents
-		Assert.assertEquals(titleText.trim(), "Thank you for Your Registration .");
-		Assert.assertEquals(messageText.trim(), "Please wait until your profile verification is completed.");
+		AssertJUnit.assertEquals(titleText.trim(), "Thank you for Your Registration .");
+		AssertJUnit.assertEquals(messageText.trim(), "Please wait until your profile verification is completed.");
 		// 5. Click the OK button
 		WebElement okButton = driver.findElement(By.xpath("//button[normalize-space()='Ok']"));
 		okButton.click();
@@ -172,7 +174,7 @@ public class Driver_SignUp_Test {
 		String actualUrl = driver.getCurrentUrl();
 		System.out.println("Current URL: " + actualUrl);
 		// Validate the URL matches exactly
-		Assert.assertEquals(actualUrl, "https://kinda.jcsoftwaresolution.in/login",
+		AssertJUnit.assertEquals(actualUrl, "https://kinda.jcsoftwaresolution.in/login",
 				"URL does not match the expected home page.");
 		logger.info("*Finished the Driver_SignUp_with_valid_dataTest*");
 	}

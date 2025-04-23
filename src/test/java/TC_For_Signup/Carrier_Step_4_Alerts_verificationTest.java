@@ -1,6 +1,8 @@
 package TC_For_Signup;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import java.io.IOException;
@@ -100,7 +102,7 @@ public class Carrier_Step_4_Alerts_verificationTest {
 		logger.info("Trailers field Validation alert: Expected Result: Please fill in this field.  " + "Actual Result: "
 				+ validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		driver.findElement(By.xpath("//input[@placeholder='Number of Trailers *']")).sendKeys("232");
 		logger.info("*Verified Trailers field alert*");
@@ -119,7 +121,7 @@ public class Carrier_Step_4_Alerts_verificationTest {
 		logger.info("Solo Truck  field Validation alert: Expected Result: Please fill in this field.  "
 				+ "Actual Result: " + validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		driver.findElement(By.xpath("//input[@placeholder='Solo Truck *']")).sendKeys("1");
 		logger.info("*Verified Solo Truck  field alert*");
@@ -138,7 +140,7 @@ public class Carrier_Step_4_Alerts_verificationTest {
 		logger.info("Team truck field Validation alert: Expected Result: Please fill in this field.  "
 				+ "Actual Result: " + validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		driver.findElement(By.xpath("//input[@placeholder='Team Truck *']")).sendKeys("2");
 		logger.info("*Verified Team truck field alert*");
@@ -162,7 +164,7 @@ public class Carrier_Step_4_Alerts_verificationTest {
 		String toastText = toast.getText();
 		logger.info("Toast message of Dry van or Reefer: " + toastText);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(toastText, "Please select any trailter type.");
+		AssertJUnit.assertEquals(toastText, "Please select any trailter type.");
 		softAssert.assertAll();
 		logger.info("*Verified Dry van or Reefer checkbox alert*");
 
@@ -188,7 +190,7 @@ public class Carrier_Step_4_Alerts_verificationTest {
 		String toastText = toast.getText();
 		logger.info("Toast message of Terms and conditions : " + toastText);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(toastText, "Please fill the check box to accept terms and conditions.");
+		AssertJUnit.assertEquals(toastText, "Please fill the check box to accept terms and conditions.");
 		softAssert.assertAll();
 		driver.findElement(By.xpath("//input[@id='checkbox1']")).click();
 		logger.info("*Verified Terms and conditions checkbox alert*");

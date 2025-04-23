@@ -1,6 +1,8 @@
 package TC_For_Signup;
 
 import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
+import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import java.io.IOException;
@@ -85,7 +87,7 @@ public class Carrier_Step_3_Alerts_verificationTest {
 		logger.info("Company field Validation alert: Expected Result: Please fill in this field.  " + "Actual Result: "
 				+ validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		driver.findElement(By.xpath("//input[@placeholder=' Company Name *']")).sendKeys("Dummyname");
 		logger.info("*Verified Company field alert*");
@@ -104,7 +106,7 @@ public class Carrier_Step_3_Alerts_verificationTest {
 		logger.info("Tax field Validation alert: Expected Result: Please fill in this field.  " + "Actual Result: "
 				+ validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		driver.findElement(By.xpath("//input[@placeholder='Tax Number *']")).sendKeys("4545");
 		logger.info("*Verified Tax field alert*");
@@ -123,7 +125,7 @@ public class Carrier_Step_3_Alerts_verificationTest {
 		logger.info("MC field Validation alert: Expected Result: Please fill in this field.  " + "Actual Result: "
 				+ validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		driver.findElement(By.xpath("//input[@placeholder='MC # *']")).sendKeys("23");
 		logger.info("*Verified MC field alert*");
@@ -143,7 +145,7 @@ public class Carrier_Step_3_Alerts_verificationTest {
 		logger.info("DOT field Validation alert: Expected Result: Please fill in this field.  " + "Actual Result: "
 				+ validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		driver.findElement(By.xpath("//input[@placeholder='DOT # *']")).sendKeys("232");
 		logger.info("*Verified DOT field alert*");

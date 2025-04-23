@@ -1,5 +1,7 @@
 package TC_For_Signup;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 import java.time.Duration;
 
@@ -81,7 +83,7 @@ public class Driver_Alerts_Verifications {
 		logger.info("License number field Validation alert: Expected Result: Please fill in this field.  "
 				+ "Actual Result: " + validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		driver.findElement(By.xpath("//input[@placeholder=' License Number *']")).sendKeys(testdata.PhoneNumber());
 		logger.info("*Verified License number field alert*");
@@ -105,7 +107,7 @@ public class Driver_Alerts_Verifications {
 		String toastText = toast.getText();
 		logger.info("Toast message of upload license image: " + toastText);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(toastText, "License image is required");
+		AssertJUnit.assertEquals(toastText, "License image is required");
 		softAssert.assertAll();
 		logger.info("*Verified upload license image alert*");
 		WebElement upl = driver.findElement(By.cssSelector("input[type=file]"));
@@ -132,7 +134,7 @@ public class Driver_Alerts_Verifications {
 		String toastText = toast.getText();
 		logger.info("Toast message of Term and conditions: " + toastText);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(toastText, "Please fill the check box to accept terms and conditions.");
+		AssertJUnit.assertEquals(toastText, "Please fill the check box to accept terms and conditions.");
 		softAssert.assertAll();
 		logger.info("*Verified Term and conditions checkbox alert*");
 

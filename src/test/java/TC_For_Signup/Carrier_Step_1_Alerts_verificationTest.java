@@ -1,5 +1,7 @@
 package TC_For_Signup;
 
+import org.testng.annotations.Test;
+import org.testng.AssertJUnit;
 import java.io.IOException;
 import java.io.InputStream;
 import java.time.Duration;
@@ -62,7 +64,7 @@ public class Carrier_Step_1_Alerts_verificationTest extends Reuseable {
 		logger.info("*Verify the actual result and expected result*");
 
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please select an item in the list.");
+		AssertJUnit.assertEquals(validationMessage, "Please select an item in the list.");
 		softAssert.assertAll();
 		WebElement drop = driver.findElement(By.xpath(
 				"/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[1]/div[1]/div[1]/select[1]"));
@@ -89,7 +91,7 @@ public class Carrier_Step_1_Alerts_verificationTest extends Reuseable {
 		logger.info("*Verify the actual result and expected result*");
 
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		Thread.sleep(1000);
 		logger.info("*Verified firstname_field_alert*");
@@ -115,7 +117,7 @@ public class Carrier_Step_1_Alerts_verificationTest extends Reuseable {
 		logger.info("email field Validation Message:Expected Result: Please fill in this field.  "
 				+ "Actual Result: " + validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		Thread.sleep(1000);
 		logger.info("*Verified email_field_alert*");
@@ -141,7 +143,7 @@ public class Carrier_Step_1_Alerts_verificationTest extends Reuseable {
 		logger.info("option field Validation Message:Expected Result: Please select an item in the list.  "
 				+ "Actual Result: " + validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please select an item in the list.");
+		AssertJUnit.assertEquals(validationMessage, "Please select an item in the list.");
 		softAssert.assertAll();
 		logger.info("*Verified option_field_alert*");
 
@@ -171,7 +173,7 @@ public class Carrier_Step_1_Alerts_verificationTest extends Reuseable {
 		logger.info("password field Validation Message:Expected Result: Please fill in this field.  "
 				+ "Actual Result: " + validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		Thread.sleep(1000);
 		logger.info("*Verified Password_field_alert*");
@@ -196,7 +198,7 @@ public class Carrier_Step_1_Alerts_verificationTest extends Reuseable {
 		logger.info("Confirmpassword field Validation Message:Expected Result: Please fill in this field.  "
 				+ "Actual Result: " + validationMessage);
 		SoftAssert softAssert = new SoftAssert();
-		softAssert.assertEquals(validationMessage, "Please fill in this field.");
+		AssertJUnit.assertEquals(validationMessage, "Please fill in this field.");
 		softAssert.assertAll();
 		Thread.sleep(1000);
 		logger.info("*Verified confirm_passowrd_field_alert*");
