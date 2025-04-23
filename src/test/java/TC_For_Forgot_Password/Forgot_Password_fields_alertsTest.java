@@ -70,8 +70,12 @@ public class Forgot_Password_fields_alertsTest {
 		String validationMessage1 = (String) js1.executeScript("return arguments[0].validationMessage;", roleSelect);
 		Thread.sleep(1000);
 
-		logger.info("If user try to enter invalid email format: " + validationMessage1);
-		test.pass("If user try to enter invalid email format: " + validationMessage1);
+		//logger.info("If user try to enter invalid email format: " + validationMessage1);
+	//	test.pass("If user try to enter invalid email format: " + validationMessage1);
+		String message = "If user try to enter invalid email format: " + validationMessage1;
+		logger.info(message);
+		test.pass(message);
+
 
 		driver.findElement(By.xpath("//input[@placeholder='Email *']")).clear();
 		Thread.sleep(1000);

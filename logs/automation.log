@@ -634,3 +634,626 @@ Actual Result: Please select a location from the suggestions.
 11:33:22.619 [main] INFO  TC_For_Forgot_Password.Forgot_PasswordTest - *Started Forgot_PasswordTest*
 11:33:29.912 [main] INFO  TC_For_Forgot_Password.Forgot_PasswordTest - *Finished Forgot_PasswordTest*
 11:33:31.987 [main] INFO  TC_For_Forgot_Password.Forgot_PasswordTest - *Finished Forgot_PasswordTest*
+11:50:35.394 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - *Started Forgot_Password_fields_alertsTest*
+11:50:38.685 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+11:50:40.822 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - com.aventstack.extentreports.ExtentTest@7ee3d262
+11:50:44.763 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - Verification code field alert: Verification is required
+11:50:44.794 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - If password is not valid: Password must be at least 8 characters long, contain an uppercase letter, a lowercase letter, a number, and a special character.
+11:50:46.894 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - If password is not matched: Password and ConfirmPassword did not matched
+11:50:47.903 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - *Finished Forgot_Password_fields_alertsTest*
+11:52:08.843 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - *Started Forgot_Password_fields_alertsTest*
+11:52:11.709 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+11:52:13.805 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - If user try to enter invalid email format: Please include an '@' in the email address. 'thr' is missing an '@'.
+11:52:17.390 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - Verification code field alert: Verification is required
+11:52:17.421 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - If password is not valid: Password must be at least 8 characters long, contain an uppercase letter, a lowercase letter, a number, and a special character.
+11:52:19.515 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - If password is not matched: Password and ConfirmPassword did not matched
+11:52:20.525 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - *Finished Forgot_Password_fields_alertsTest*
+12:26:51.250 [main] INFO  Identify_broken_links.broken_links_on_website - *broken_links_on_website*
+12:27:25.509 [main] INFO  Identify_broken_links.broken_links_on_website - *broken_links_on_website*
+12:34:07.349 [main] INFO  Identify_broken_links.broken_links_on_website - *broken_links_on_website*
+12:37:15.981 [main] INFO  Identify_broken_links.broken_links_on_website - *broken_links_on_website*
+12:38:35.391 [main] INFO  Identify_broken_links.broken_links_on_website - *broken_links_on_website*
+12:44:00.981 [main] INFO  Identify_broken_links.broken_links_on_website - *broken_links_on_website*
+12:44:47.117 [main] INFO  Identify_broken_links.broken_links_on_website - *broken_links_on_website*
+13:05:57.392 [main] INFO  TC_For_Signup.Carrier_SignUp_Test - *****Opening Browser*****
+13:05:57.396 [main] INFO  TC_For_Signup.Carrier_SignUp_Test - *****Started the Carrier_SignUp_Test*****
+13:06:17.334 [main] INFO  Identify_links.broken_links_on_websiteTest - *Started broken_links_on_website*
+13:06:18.345 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Home Page Links
+13:06:18.346 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+13:06:19.498 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:06:19.789 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:06:20.078 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:06:20.366 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+13:06:20.654 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:06:20.945 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+13:06:21.239 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:06:21.528 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:06:21.818 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+13:06:22.106 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+13:06:22.106 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verified Home Page Links
+13:06:31.786 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Home Page Links
+13:06:31.787 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+13:06:32.701 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:07:30.542 [main] INFO  Identify_links.broken_links_on_websiteTest - *Started broken_links_on_website*
+13:07:31.241 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Home Page Links
+13:07:31.242 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+13:07:32.396 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:07:32.705 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:07:33.009 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:07:33.313 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+13:07:33.618 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:07:33.923 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+13:07:34.229 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:07:34.533 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:07:34.838 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+13:07:35.142 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+13:07:35.142 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verified Home Page Links
+13:07:35.239 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Home Page Links
+13:07:35.239 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+13:07:35.547 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:11:43.582 [main] INFO  Identify_links.broken_links_on_websiteTest - *Started broken_links_on_website*
+13:11:44.503 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+13:11:45.671 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:11:45.983 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:11:46.288 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:11:46.593 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+13:11:46.897 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:11:47.200 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+13:11:47.504 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:11:47.807 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:11:48.110 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+13:11:48.419 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+13:11:48.423 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Home Page Links
+13:11:48.433 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+13:11:48.760 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:11:49.063 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:11:49.367 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:11:49.670 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+13:11:49.979 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:11:50.282 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+13:11:50.585 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:11:50.891 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:11:51.194 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+13:11:51.498 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+13:11:51.499 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verified Home Page Links
+13:11:51.605 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+13:11:51.910 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:11:52.214 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:11:55.275 [main] INFO  Identify_links.broken_links_on_websiteTest - *Finished broken_links_on_website*
+13:14:15.803 [main] INFO  Identify_links.broken_links_on_websiteTest - *Started broken_links_on_website*
+13:14:16.459 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+13:14:17.645 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:14:17.958 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:14:18.270 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:14:18.581 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+13:14:18.892 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:14:19.206 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+13:14:19.558 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:14:19.870 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:14:20.182 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+13:14:20.493 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+13:14:20.497 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Home Page Links
+13:14:20.507 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+13:14:20.820 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:14:21.133 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:14:21.461 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:14:21.773 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+13:14:22.084 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:14:22.395 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+13:14:22.707 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:14:23.018 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:14:23.330 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+13:14:23.642 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+13:14:23.642 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verified Home Page Links
+13:14:23.750 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+13:14:24.075 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:14:24.400 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:14:24.712 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:14:27.744 [main] INFO  Identify_links.broken_links_on_websiteTest - *Finished broken_links_on_website*
+13:16:29.769 [main] INFO  Identify_links.broken_links_on_websiteTest - *Started broken_links_on_website*
+13:16:30.352 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+13:16:31.568 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:16:31.932 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:16:32.232 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:16:32.531 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+13:16:32.830 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:16:33.130 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+13:16:33.493 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:16:33.808 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:16:34.106 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+13:16:34.408 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+13:16:34.412 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ 3Verify Home Page Links
+13:16:34.424 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+13:16:34.725 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:16:35.025 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:16:35.357 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:16:35.700 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+13:16:35.999 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:16:36.299 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+13:16:36.598 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:16:36.903 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:16:37.202 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+13:16:37.515 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+13:16:37.515 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ 3Verified Home Page Links
+13:16:37.644 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+13:16:37.955 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:16:38.272 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:16:38.571 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:16:41.601 [main] INFO  Identify_links.broken_links_on_websiteTest - *Finished broken_links_on_website*
+13:20:59.112 [main] INFO  Identify_links.broken_links_on_websiteTest - *Started broken_links_on_website*
+13:20:59.519 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+13:21:00.826 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:21:01.140 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:21:01.444 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:21:01.749 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+13:21:02.053 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:21:02.357 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+13:21:02.661 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:21:02.970 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:21:03.273 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+13:21:03.577 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+13:21:03.693 [main] INFO  Identify_links.broken_links_on_websiteTest - 4Total links: 10
+13:21:04.004 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:21:04.330 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:21:04.637 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:21:07.689 [main] INFO  Identify_links.broken_links_on_websiteTest - *Finished broken_links_on_website*
+13:23:40.115 [main] INFO  Identify_links.broken_links_on_websiteTest - *Started broken_links_on_website*
+13:23:40.811 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+13:23:42.009 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:23:42.339 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:23:42.640 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:23:42.940 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+13:23:43.239 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:23:43.538 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+13:23:43.875 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:23:44.186 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:23:44.486 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+13:23:44.785 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+13:23:47.890 [main] INFO  Identify_links.broken_links_on_websiteTest - 4Total links: 12
+13:23:48.192 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:23:48.490 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:23:48.790 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:23:49.087 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+13:23:49.385 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:23:49.684 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+13:23:49.982 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:23:50.280 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:23:50.577 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus#getInTouch — Status Code: 200
+13:23:50.876 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:23:51.175 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+13:23:51.475 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+13:23:51.475 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ V4erified Home Page Links
+13:23:54.479 [main] INFO  Identify_links.broken_links_on_websiteTest - *Finished broken_links_on_website*
+13:24:51.773 [main] INFO  Identify_links.broken_links_on_websiteTest - *Started broken_links_on_website*
+13:24:52.452 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+13:24:53.671 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:24:53.977 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:24:54.282 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:24:54.584 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+13:24:54.888 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:24:55.190 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+13:24:55.493 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:24:55.799 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:24:56.102 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+13:24:56.406 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+13:24:59.505 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 12
+13:24:59.808 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:25:00.109 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+13:25:00.414 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:25:00.717 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+13:25:01.019 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:25:01.322 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+13:25:01.626 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+13:25:01.941 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:25:02.250 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus#getInTouch — Status Code: 200
+13:25:02.561 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+13:25:02.863 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+13:25:03.166 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+13:25:03.166 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ V4erified Home Page Links
+13:25:06.169 [main] INFO  Identify_links.broken_links_on_websiteTest - *Finished broken_links_on_website*
+14:41:01.482 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify About US Page Links
+14:41:04.516 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Home Page Links
+14:41:04.528 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Plan Page Links
+14:42:24.181 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify About US Page Links
+14:42:27.208 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Home Page Links
+14:42:27.218 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Plan Page Links
+14:42:30.229 [main] INFO  Identify_links.broken_links_on_websiteTest - *Finished broken_links_on_website*
+16:23:30.078 [main] INFO  Identify_links.broken_links_on_websiteTest - *Started broken_links_on_website*
+16:23:30.092 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify About US Page Links
+16:23:34.624 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 11
+16:23:36.769 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:23:37.067 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:23:37.363 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:23:37.663 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+16:23:37.963 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:23:38.261 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+16:23:38.558 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:23:38.856 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:23:39.155 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:23:39.452 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+16:23:39.751 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+16:23:39.751 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verified About US Page Links
+16:23:39.840 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Contact Page Links
+16:23:42.850 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 12
+16:23:43.146 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:23:43.446 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:23:43.742 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:23:44.040 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+16:23:44.336 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:23:44.633 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+16:23:44.929 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:23:45.225 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:23:45.521 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus#getInTouch — Status Code: 200
+16:23:45.818 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:23:46.114 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+16:23:46.933 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+16:23:46.933 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verified Contact Page Links
+16:23:49.936 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Home Page Links
+16:23:49.947 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 12
+16:23:50.246 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:23:50.542 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:23:50.840 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:23:51.136 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+16:23:51.434 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:23:51.731 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+16:23:52.026 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:23:52.321 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:23:52.618 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus#getInTouch — Status Code: 200
+16:23:52.913 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:23:53.209 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+16:23:53.504 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+16:23:53.506 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verified Home Page Links
+16:23:53.508 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Plan Page Links
+16:23:56.596 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 14
+16:23:56.893 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:23:57.189 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:23:57.485 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:23:57.783 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+16:23:58.079 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:23:58.377 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+16:23:58.674 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:23:58.681 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty
+16:23:58.689 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty
+16:23:58.695 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty
+16:23:58.701 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty
+16:23:58.997 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:23:59.298 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+16:23:59.597 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+16:23:59.597 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verified Plan Page Links
+16:24:02.607 [main] INFO  Identify_links.broken_links_on_websiteTest - *Finished broken_links_on_website*
+16:24:13.981 [main] INFO  Identify_links.broken_links_on_websiteTest - *Started broken_links_on_website*
+16:24:16.991 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Home Page Links
+16:24:17.008 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+16:24:18.244 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:24:18.553 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:24:18.862 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:24:19.170 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+16:24:19.477 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:24:19.785 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+16:24:20.092 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:24:20.401 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:24:20.711 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+16:24:21.019 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+16:24:21.019 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verified Home Page Links
+16:24:21.023 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify About US Page Links
+16:24:24.130 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 11
+16:24:24.438 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:24:24.745 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:24:25.053 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:24:25.363 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+16:24:25.670 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:24:25.981 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+16:24:26.288 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:24:26.594 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:24:26.901 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:24:27.208 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+16:24:27.514 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+16:24:27.514 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verified About US Page Links
+16:24:27.518 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Plan Page Links
+16:24:30.602 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 14
+16:24:30.912 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:24:31.221 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:24:31.527 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:24:31.833 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+16:24:32.141 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:24:32.449 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+16:24:32.759 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:24:32.766 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty
+16:24:32.774 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty
+16:24:32.782 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty
+16:24:32.789 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty
+16:24:33.095 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:24:33.401 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+16:24:33.708 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+16:24:33.708 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verified Plan Page Links
+16:24:33.786 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Contact Page Links
+16:24:36.796 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 12
+16:24:37.104 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:24:37.409 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:24:37.716 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:24:38.022 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+16:24:38.329 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:24:38.638 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+16:24:38.944 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:24:39.249 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:24:39.554 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus#getInTouch — Status Code: 200
+16:24:39.861 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:24:40.169 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+16:24:40.480 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+16:24:40.480 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verified Contact Page Links
+16:24:43.483 [main] INFO  Identify_links.broken_links_on_websiteTest - *Finished broken_links_on_website*
+16:25:58.129 [main] INFO  Identify_links.broken_links_on_websiteTest - *Started broken_links_on_website*
+16:26:01.139 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Home Page Links
+16:26:01.155 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 10
+16:26:02.290 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:26:02.596 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:26:02.902 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:26:03.214 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+16:26:03.525 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:26:03.832 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+16:26:04.138 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:26:04.448 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:26:04.756 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+16:26:05.062 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+16:26:05.062 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verified Home Page Links
+16:26:05.069 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify About US Page Links
+16:26:08.175 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 11
+16:26:08.482 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:26:08.792 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:26:09.097 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:26:09.404 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+16:26:09.710 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:26:10.014 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+16:26:10.319 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:26:10.624 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:26:10.930 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:26:11.236 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+16:26:11.543 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+16:26:11.544 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verified About US Page Links
+16:26:11.547 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Plan Page Links
+16:26:14.633 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 14
+16:26:14.940 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:26:15.246 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:26:15.551 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:26:15.857 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+16:26:16.162 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:26:16.466 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+16:26:16.777 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:26:16.784 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is emptynull
+16:26:16.792 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is emptynull
+16:26:16.799 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is emptynull
+16:26:16.805 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is emptynull
+16:26:17.111 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:26:17.416 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+16:26:17.721 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+16:26:17.721 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verified Plan Page Links
+16:26:17.798 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verify Contact Page Links
+16:26:20.807 [main] INFO  Identify_links.broken_links_on_websiteTest - Total links: 12
+16:26:21.111 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:26:21.415 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/ — Status Code: 200
+16:26:21.720 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:26:22.024 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/plan — Status Code: 200
+16:26:22.329 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:26:22.634 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus — Status Code: 200
+16:26:22.940 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/login — Status Code: 200
+16:26:23.247 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:26:23.552 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/contactus#getInTouch — Status Code: 200
+16:26:23.856 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/aboutus — Status Code: 200
+16:26:24.161 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/privacypolicy — Status Code: 200
+16:26:24.465 [main] INFO  Identify_links.broken_links_on_websiteTest - ✅ Valid link: https://kinda.jcsoftwaresolution.in/termcondtitons — Status Code: 200
+16:26:24.465 [main] INFO  Identify_links.broken_links_on_websiteTest - ⚠️ Verified Contact Page Links
+16:26:27.468 [main] INFO  Identify_links.broken_links_on_websiteTest - *Finished broken_links_on_website*
+16:28:14.842 [main] INFO  Identify_links.Broken_images_on_websiteTest - *Started broken_links_on_website*
+16:28:17.851 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ Verify Home Page Links
+16:28:17.870 [main] INFO  Identify_links.Broken_images_on_websiteTest - Total links: 18
+16:28:17.883 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:17.894 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:17.910 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:17.919 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:17.927 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:17.937 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:17.945 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:17.953 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:17.960 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:17.968 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:17.975 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:17.982 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:17.989 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:17.996 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:18.003 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:18.011 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:18.018 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:18.025 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:18.026 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ Verified Home Page Links
+16:28:18.029 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ Verify About US Page Links
+16:28:21.139 [main] INFO  Identify_links.Broken_images_on_websiteTest - Total links: 6
+16:28:21.149 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:21.156 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:21.163 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:21.171 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:21.179 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:21.190 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:21.190 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ Verified About US Page Links
+16:28:21.193 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ Verify Plan Page Links
+16:28:24.279 [main] INFO  Identify_links.Broken_images_on_websiteTest - Total links: 2
+16:28:24.287 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:24.293 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:24.294 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ Verified Plan Page Links
+16:28:24.372 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ Verify Contact Page Links
+16:28:27.381 [main] INFO  Identify_links.Broken_images_on_websiteTest - Total links: 5
+16:28:27.389 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:27.395 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:27.403 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:27.411 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:27.419 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ URL is either not configured for anchor tag or it is empty null
+16:28:27.419 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ Verified Contact Page Links
+16:31:24.477 [main] INFO  Identify_links.Broken_images_on_websiteTest - *Started Broken_images_on_websiteTest*
+16:31:27.487 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ Verify Home Page Images
+16:31:33.667 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ Verified Home Page Images
+16:31:33.670 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ Verify About US Page Images
+16:31:38.566 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ Verified About US Page Images
+16:31:38.569 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ Verify Plan Page Images
+16:31:42.242 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ Verified Plan Page Images
+16:31:42.321 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ Verify Contact Page Images
+16:31:46.808 [main] INFO  Identify_links.Broken_images_on_websiteTest - ⚠️ Verified Contact Page Images
+16:31:49.811 [main] INFO  Identify_links.Broken_images_on_websiteTest - *Finished Broken_images_on_websiteTest*
+16:36:58.339 [main] INFO  Identify_links.Links_Persent_or_NotTest - *Started Links_Persent_or_NotTest*
+16:36:59.395 [main] INFO  Identify_links.Links_Persent_or_NotTest - *Started Links_Persent_or_NotTest*
+16:37:48.274 [main] INFO  Identify_links.Links_Persent_or_NotTest - *Started Links_Persent_or_NotTest*
+16:37:49.007 [main] INFO  Identify_links.Links_Persent_or_NotTest - *Started Links_Persent_or_NotTest*
+17:09:33.840 [main] INFO  Identify_links.Links_Persent_or_NotTest - *Started Links_Persent_or_NotTest*
+17:09:35.229 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Home Link is present
+17:09:35.274 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ About Link is present
+17:09:35.316 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Plan Link is present
+17:09:35.358 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Chat Link is present
+17:09:35.385 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Contact Link is present
+17:09:35.408 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Login Link is not Present
+17:09:35.429 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Sign up Link is not Present
+17:09:35.458 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ About Link is present
+17:09:35.480 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Features Link is not Present
+17:09:35.512 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Works Link is not Present
+17:09:35.533 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Support Link is not Present
+17:09:35.554 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ X Link is not Present
+17:09:35.573 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Facebook Link is not Present
+17:09:35.595 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Instagram Link is not Present
+17:09:35.614 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Git Link is not Present
+17:09:35.633 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Privacy Policy Link is present
+17:09:35.664 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Terms & Conditions Link is present
+17:11:39.918 [main] INFO  Identify_links.Links_Persent_or_NotTest - *Started Links_Persent_or_NotTest*
+17:11:40.669 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Home Link is present
+17:11:40.722 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ About Link is present
+17:11:40.759 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Plan Link is present
+17:11:40.778 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Chat Link is present
+17:11:40.799 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Contact Link is present
+17:11:40.818 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Login Link is not Present
+17:11:40.837 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Sign up Link is not Present
+17:11:40.862 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ About Link is present
+17:11:40.882 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Features Link is not Present
+17:11:40.903 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Works Link is not Present
+17:11:40.924 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Support Link is not Present
+17:11:40.950 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ X Link is not Present
+17:11:40.971 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Facebook Link is not Present
+17:11:40.989 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Instagram Link is not Present
+17:11:41.009 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Git Link is not Present
+17:11:41.029 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Privacy Policy Link is present
+17:11:41.050 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Terms & Conditions Link is present
+17:13:15.438 [main] INFO  Identify_links.Links_Persent_or_NotTest - *Started Links_Persent_or_NotTest*
+17:13:16.227 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Home Link is present
+17:13:16.270 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ About Link is present
+17:13:16.304 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Plan Link is present
+17:13:16.324 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Chat Link is present
+17:13:16.354 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Contact Link is present
+17:13:16.375 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Login Link is not Present
+17:13:16.394 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Sign up Link is not Present
+17:13:16.418 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ About Link is present
+17:13:16.436 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Features Link is not Present
+17:13:16.456 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Works Link is not Present
+17:13:16.474 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Support Link is not Present
+17:13:16.491 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ X Link is not Present
+17:13:16.524 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Facebook Link is not Present
+17:13:16.546 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Instagram Link is not Present
+17:13:16.572 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Git Link is not Present
+17:13:16.592 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Privacy Policy Link is present
+17:13:16.613 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Terms & Conditions Link is present
+17:13:30.401 [main] INFO  Identify_links.Links_Persent_or_NotTest - *Started Links_Persent_or_NotTest*
+17:13:31.150 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Home Link is present
+17:13:31.214 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ About Link is present
+17:13:31.235 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Plan Link is present
+17:13:31.252 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Chat Link is present
+17:13:31.270 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Contact Link is present
+17:13:31.290 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Login Link is not Present
+17:13:31.307 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Sign up Link is not Present
+17:13:31.327 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ About Link is present
+17:13:31.344 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Features Link is not Present
+17:13:31.361 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Works Link is not Present
+17:13:31.379 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Support Link is not Present
+17:13:31.397 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ X Link is not Present
+17:13:31.419 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Facebook Link is not Present
+17:13:31.439 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Instagram Link is not Present
+17:13:31.456 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Git Link is not Present
+17:13:31.475 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Privacy Policy Link is present
+17:13:31.495 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Terms & Conditions Link is present
+17:14:45.089 [main] INFO  Identify_links.Links_Persent_or_NotTest - *Started Links_Persent_or_NotTest*
+17:14:45.838 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Home Link is present
+17:14:45.875 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ About Link is present
+17:14:45.924 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Plan Link is present
+17:14:45.944 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Chat Link is present
+17:14:45.963 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Contact Link is present
+17:14:45.986 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Login Link is present
+17:14:46.007 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Sign up Link is present
+17:14:46.029 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ About Link is present
+17:14:46.049 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Features Link is not Present
+17:14:46.068 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Works Link is not Present
+17:14:46.087 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Support Link is not Present
+17:14:46.112 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ X Link is not Present
+17:14:46.133 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Facebook Link is not Present
+17:14:46.154 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Instagram Link is not Present
+17:14:46.175 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Git Link is not Present
+17:14:46.201 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Privacy Policy Link is present
+17:14:46.221 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Terms & Conditions Link is present
+17:16:43.554 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - *Started Forgot_Password_fields_alertsTest*
+17:16:46.451 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - Email field Validation Message: Expected Result: Please fill in this field.  Actual Result: Please fill in this field.
+17:16:48.550 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - If user try to enter invalid email format: Please include an '@' in the email address. 'thr' is missing an '@'.
+17:16:52.390 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - Verification code field alert: Verification is required
+17:16:52.421 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - If password is not valid: Password must be at least 8 characters long, contain an uppercase letter, a lowercase letter, a number, and a special character.
+17:16:54.519 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - If password is not matched: Password and ConfirmPassword did not matched
+17:16:55.527 [main] INFO  TC_For_Forgot_Password.Forgot_Password_fields_alertsTest - *Finished Forgot_Password_fields_alertsTest*
+17:17:00.426 [main] INFO  TC_For_Forgot_Password.Forgot_PasswordTest - *Started Forgot_PasswordTest*
+17:17:08.016 [main] INFO  TC_For_Forgot_Password.Forgot_PasswordTest - *Finished Forgot_PasswordTest*
+17:17:13.589 [main] INFO  Identify_links.Links_Persent_or_NotTest - *Started Links_Persent_or_NotTest*
+17:17:14.863 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Home Link is present
+17:17:14.929 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ About Link is present
+17:17:14.957 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Plan Link is present
+17:17:14.983 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Chat Link is present
+17:17:15.003 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Contact Link is present
+17:17:15.021 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Login Link is present
+17:17:15.041 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Sign up Link is present
+17:17:15.064 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ About Link is present
+17:17:15.086 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Features Link is not Present
+17:17:15.108 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Works Link is not Present
+17:17:15.132 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Support Link is not Present
+17:17:15.151 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ X Link is not Present
+17:17:15.173 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Facebook Link is not Present
+17:17:15.194 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Instagram Link is not Present
+17:17:15.219 [main] ERROR Identify_links.Links_Persent_or_NotTest - ❌ Git Link is not Present
+17:17:15.242 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Privacy Policy Link is present
+17:17:15.262 [main] INFO  Identify_links.Links_Persent_or_NotTest - ✅ Terms & Conditions Link is present
+17:17:15.340 [main] INFO  Identify_links.Links_Persent_or_NotTest - *Finished Links_Persent_or_NotTest*
+18:01:29.615 [main] INFO  testCases.failedss - *Started Links_Persent_or_NotTest*
+18:01:30.586 [main] INFO  testCases.failedss - ✅ About Link is present
+18:01:30.605 [main] ERROR testCases.failedss - ❌ Features Link is not Present
+18:01:30.624 [main] ERROR testCases.failedss - ❌ Works Link is not Present
+18:01:30.654 [main] ERROR testCases.failedss - ❌ Support Link is not Present
+18:01:30.692 [main] ERROR testCases.failedss - ❌ X Link is not Present
+18:01:30.742 [main] ERROR testCases.failedss - ❌ Facebook Link is not Present
+18:01:30.760 [main] ERROR testCases.failedss - ❌ Instagram Link is not Present
+18:01:30.787 [main] ERROR testCases.failedss - ❌ Git Link is not Present
+18:01:30.806 [main] INFO  testCases.failedss - ✅ Privacy Policy Link is present
+18:01:30.826 [main] INFO  testCases.failedss - ✅ Terms & Conditions Link is present
+18:03:58.983 [main] INFO  testCases.failedss - *Started Links_Persent_or_NotTest*
+18:03:59.607 [main] INFO  testCases.failedss - ✅ About Link is present
+18:03:59.631 [main] ERROR testCases.failedss - ❌ Features Link is not Present
+18:03:59.657 [main] ERROR testCases.failedss - ❌ Works Link is not Present
+18:03:59.711 [main] ERROR testCases.failedss - ❌ Support Link is not Present
+18:03:59.754 [main] ERROR testCases.failedss - ❌ X Link is not Present
+18:03:59.775 [main] ERROR testCases.failedss - ❌ Facebook Link is not Present
+18:03:59.795 [main] ERROR testCases.failedss - ❌ Instagram Link is not Present
+18:03:59.814 [main] ERROR testCases.failedss - ❌ Git Link is not Present
+18:03:59.832 [main] INFO  testCases.failedss - ✅ Privacy Policy Link is present
+18:03:59.853 [main] INFO  testCases.failedss - ✅ Terms & Conditions Link is present
+18:08:36.731 [main] INFO  testCases.failedss - *Started Links_Persent_or_NotTest*
+18:08:37.618 [main] INFO  testCases.failedss - ✅ About Link is present
+18:08:37.661 [main] ERROR testCases.failedss - ❌ Features Link is not Present
+18:08:37.713 [main] ERROR testCases.failedss - ❌ Works Link is not Present
+18:08:37.747 [main] ERROR testCases.failedss - ❌ Support Link is not Present
+18:08:37.767 [main] ERROR testCases.failedss - ❌ X Link is not Present
+18:08:37.789 [main] ERROR testCases.failedss - ❌ Facebook Link is not Present
+18:08:37.807 [main] ERROR testCases.failedss - ❌ Instagram Link is not Present
+18:08:37.827 [main] ERROR testCases.failedss - ❌ Git Link is not Present
+18:08:37.848 [main] INFO  testCases.failedss - ✅ Privacy Policy Link is present
+18:08:37.868 [main] INFO  testCases.failedss - ✅ Terms & Conditions Link is present
+18:13:04.706 [main] INFO  testCases.failedss - *Started Links_Persent_or_NotTest*
+18:14:09.815 [main] INFO  testCases.failedss - *Started Links_Persent_or_NotTest*
+18:14:30.949 [main] INFO  testCases.failedss - *Started Links_Persent_or_NotTest*
+18:14:37.381 [main] INFO  testCases.failedss - *Finished Forgot_PasswordTest*
+18:22:17.798 [main] INFO  testCases.failedss - *Started Links_Persent_or_NotTest*

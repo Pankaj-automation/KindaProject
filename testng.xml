@@ -6,7 +6,8 @@
      
       <class name="TC_For_Forgot_Password.Forgot_Password_fields_alertsTest"/>
       <class name="TC_For_Forgot_Password.Forgot_PasswordTest"/>
-     
+           <class name="Identify_links.Links_Persent_or_NotTest"/>
+
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
