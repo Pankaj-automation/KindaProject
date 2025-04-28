@@ -1,8 +1,11 @@
 package TC_For_Forgot_Password;
 
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+import org.testng.ITestResult;
+
 import java.io.IOException;
 import java.time.Duration;
 
@@ -22,6 +25,7 @@ import com.aventstack.extentreports.ExtentTest;
 import TC_For_Signup.Carrier_Step_1_Alerts_verificationTest;
 import utilities.Extentreportmanager;
 import utilities.Reuseable;
+import utilities.Screenshot;
 
 public class Forgot_Password_fields_alertsTest {
 	WebDriver driver;
@@ -88,13 +92,13 @@ public class Forgot_Password_fields_alertsTest {
 	@Test(priority = 3)
 	public void Change_Password_Page_fields_alert() throws InterruptedException {
 		driver.findElement(By.xpath("//button[normalize-space()='Save Password']")).click();
-		WebElement otpfield = driver.findElement(By.xpath("(//div[@class='text-red-500 mb-2 text-xs d-block'])[1]"));
+		WebElement otpfield = driver.findElement(By.xpath("(//div[contains(text(),'Verification is required')])[1]"));
 
 		logger.info("Verification code field alert: " + otpfield.getText());
 		test.pass("Verification code field alert: " + otpfield.getText());
 
 		WebElement paswrd = driver
-				.findElement(By.xpath("(//div[@class='invalid-feedback block star text-[12px]'])[1]"));
+				.findElement(By.xpath("//div[contains(@class,'block text-[12px] mb-2')]"));
 
 		logger.info("If password is not valid: " + paswrd.getText());
 		test.pass("If password is not valid: " + paswrd.getText());
@@ -107,6 +111,10 @@ public class Forgot_Password_fields_alertsTest {
 		WebElement confirmpaswrd = driver
 				.findElement(By.xpath("/html[1]/body[1]/div[1]/div[1]/div[1]/div[1]/div[1]/form[1]/div[2]/div[4]"));
 
+		String actualText = confirmpaswrd.getText();
+		String expectedText = "Password and Confirm Password did not matched";
+		Assert.assertEquals(actualText, expectedText, "❌ Password mismatch validation failed!");
+
 		logger.info("If password is not matched: " + confirmpaswrd.getText());
 		test.pass("If password is not matched: " + confirmpaswrd.getText());
 
@@ -115,7 +123,15 @@ public class Forgot_Password_fields_alertsTest {
 		test.info("*Finished Forgot_Password_fields_alertsTest*");
 
 	}
-
+	@AfterMethod
+	public void tearDown1(ITestResult result) throws IOException {
+		if (result.getStatus() == ITestResult.FAILURE) {
+			String screenshotPath = Screenshot.takeScreenshot(driver, result.getName()); // Fixed
+			test.fail("Test Failed: " + result.getThrowable()).addScreenCaptureFromPath(screenshotPath);
+		} else if (result.getStatus() == ITestResult.SUCCESS) {
+			test.pass("Test Passed");
+		}
+	}
 	@Test(priority = 4)
 	public void QuitBrowser() throws IOException, InterruptedException {
 		Thread.sleep(1000);

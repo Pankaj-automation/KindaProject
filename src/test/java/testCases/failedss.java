@@ -1,6 +1,7 @@
 package testCases;
 
 import java.io.IOException;
+
 import java.time.Duration;
 
 import org.apache.logging.log4j.LogManager;
@@ -22,9 +23,7 @@ import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
-import utilities.Screenshot;
 
-import testBase.ScreenshotBase;
 
 public class failedss  {
 	

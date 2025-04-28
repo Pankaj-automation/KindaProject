@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testCases.failedss">
+      <class name="Responsive_Testing.Reponsive_TestingTest">
         <methods>
-          <include name="tearDown1"/>
-          <include name="tearDownReport"/>
-          <include name="Forgot_Password"/>
+          <include name="Carrier_Login"/>
         </methods>
-      </class> <!-- testCases.failedss -->
+      </class> <!-- Responsive_Testing.Reponsive_TestingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -37,5 +37,14 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="/home/jc-raj/.m2/repository/net/datafaker/datafaker/2.4.3/datafaker-2.4.3.jar" sourcepath="/home/jc-raj/.m2/repository/net/datafaker/datafaker/2.4.3/datafaker-2.4.3-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="net.datafaker"/>
+			<attribute name="maven.artifactId" value="datafaker"/>
+			<attribute name="maven.version" value="2.4.3"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

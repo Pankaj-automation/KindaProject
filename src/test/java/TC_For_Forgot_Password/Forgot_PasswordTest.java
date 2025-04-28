@@ -1,12 +1,15 @@
 package TC_For_Forgot_Password;
 
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
 import org.testng.AssertJUnit;
+import org.testng.ITestResult;
+
 import java.io.IOException;
 import java.time.Duration;
 
@@ -20,6 +23,7 @@ import org.testng.annotations.Test;
 
 import utilities.Extentreportmanager;
 import utilities.Reuseable;
+import utilities.Screenshot;
 
 public class Forgot_PasswordTest {
 	WebDriver driver;
@@ -64,6 +68,16 @@ public class Forgot_PasswordTest {
 		Thread.sleep(2000);
 		if (driver != null) {
 			driver.quit();
+		}
+	}
+	
+	@AfterMethod
+	public void tearDown1(ITestResult result) throws IOException {
+		if (result.getStatus() == ITestResult.FAILURE) {
+			String screenshotPath = Screenshot.takeScreenshot(driver, result.getName()); // Fixed
+			test.fail("Test Failed: " + result.getThrowable()).addScreenCaptureFromPath(screenshotPath);
+		} else if (result.getStatus() == ITestResult.SUCCESS) {
+			test.pass("Test Passed");
 		}
 	}
 
