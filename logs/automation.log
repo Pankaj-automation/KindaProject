@@ -2072,3 +2072,395 @@ Actual Result: Please select a location from the suggestions.
 19:01:14.733 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Testing on resolution: (375, 812)
 19:01:20.058 [main] INFO  Responsive_Testing.Reponsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Carrier_Login_375x812_2025.04.25_19.01.20.png
 19:01:20.059 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:11:29.429 [main] INFO  Responsive_Testing.Reponsive_TestingTest - *Started Home Responsive Test*
+10:11:30.898 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:11:44.384 [main] INFO  Responsive_Testing.Reponsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Home_375x812_2025.04.28_10.11.44.png
+10:11:44.385 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:11:44.385 [main] INFO  Responsive_Testing.Reponsive_TestingTest - *Finished Home Responsive Test*
+10:11:44.395 [main] INFO  Responsive_Testing.Reponsive_TestingTest - *Started Carrier_Login Responsive Test*
+10:11:50.290 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:11:54.546 [main] INFO  Responsive_Testing.Reponsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Carrier_Login_375x812_2025.04.28_10.11.54.png
+10:11:54.546 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:11:59.962 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:12:04.210 [main] INFO  Responsive_Testing.Reponsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Carrier_Login_375x812_2025.04.28_10.12.04.png
+10:12:04.210 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:12:09.619 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:12:13.849 [main] INFO  Responsive_Testing.Reponsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Carrier_Login_375x812_2025.04.28_10.12.13.png
+10:12:13.849 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:12:19.253 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:12:23.501 [main] INFO  Responsive_Testing.Reponsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Carrier_Login_375x812_2025.04.28_10.12.23.png
+10:12:23.501 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:12:28.909 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:12:33.154 [main] INFO  Responsive_Testing.Reponsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Carrier_Login_375x812_2025.04.28_10.12.33.png
+10:12:33.154 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:12:38.564 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:12:43.870 [main] INFO  Responsive_Testing.Reponsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Carrier_Login_375x812_2025.04.28_10.12.43.png
+10:12:43.871 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:19:30.147 [main] INFO  Responsive_Testing.Reponsive_TestingTest - *Started Home Responsive Test*
+10:19:32.115 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:19:46.611 [main] INFO  Responsive_Testing.Reponsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Home_375x812_2025.04.28_10.19.46.png
+10:19:46.611 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:19:46.612 [main] INFO  Responsive_Testing.Reponsive_TestingTest - *Finished Home Responsive Test*
+10:19:46.621 [main] INFO  Responsive_Testing.Reponsive_TestingTest - *Started Carrier_Login Responsive Test*
+10:19:52.502 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:19:56.728 [main] INFO  Responsive_Testing.Reponsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Carrier_Login_375x812_2025.04.28_10.19.56.png
+10:19:56.728 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:20:02.137 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:20:06.402 [main] INFO  Responsive_Testing.Reponsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Carrier_Login_375x812_2025.04.28_10.20.06.png
+10:20:06.402 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:20:11.810 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:20:16.059 [main] INFO  Responsive_Testing.Reponsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Carrier_Login_375x812_2025.04.28_10.20.16.png
+10:20:16.060 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:20:21.470 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:20:25.733 [main] INFO  Responsive_Testing.Reponsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Carrier_Login_375x812_2025.04.28_10.20.25.png
+10:20:25.733 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:20:31.139 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:20:35.398 [main] INFO  Responsive_Testing.Reponsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Carrier_Login_375x812_2025.04.28_10.20.35.png
+10:20:35.398 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:20:40.817 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:20:46.175 [main] INFO  Responsive_Testing.Reponsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Carrier_Login_375x812_2025.04.28_10.20.46.png
+10:20:46.176 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:20:53.780 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:21:00.265 [main] INFO  Responsive_Testing.Reponsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Carrier_Login_375x812_2025.04.28_10.21.00.png
+10:21:00.265 [main] INFO  Responsive_Testing.Reponsive_TestingTest - ✅ Tested on resolution: (375, 812)
+11:12:02.149 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started Home Responsive Test*
+11:12:04.120 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+11:12:18.502 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Home_Page_375x812_2025.04.28_11.12.18.png
+11:12:18.503 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+11:12:18.503 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished Home Responsive Test*
+11:12:18.513 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started About Us Responsive Test*
+11:12:19.720 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+11:12:29.675 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Aboutus_Page_375x812_2025.04.28_11.12.29.png
+11:12:29.676 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+11:12:29.676 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished About Us Responsive Test*
+11:12:29.841 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 🔚 Browser closed after all tests.
+11:16:01.477 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started Home Responsive Test*
+11:16:02.947 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+11:16:17.362 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Home_Page_375x812_2025.04.28_11.16.17.png
+11:16:17.362 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+11:16:17.363 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished Home Responsive Test*
+11:16:17.372 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started About Us Responsive Test*
+11:16:18.568 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+11:16:28.523 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Aboutus_Page_375x812_2025.04.28_11.16.28.png
+11:16:28.523 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+11:16:28.524 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished About Us Responsive Test*
+11:16:28.937 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 🔚 Browser closed after all tests.
+11:33:50.100 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started Home Responsive Test*
+11:33:51.536 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+11:34:05.873 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Home_Page_375x812_2025.04.28_11.34.05.png
+11:34:05.873 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+11:34:05.874 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished Home Responsive Test*
+11:34:05.880 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started About Us Responsive Test*
+11:34:07.130 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+11:34:17.067 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Aboutus_Page_375x812_2025.04.28_11.34.16.png
+11:34:17.068 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+11:34:17.068 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished About Us Responsive Test*
+11:34:17.388 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 🔚 Browser closed after all tests.
+11:47:13.309 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started Home Responsive Test*
+11:47:13.632 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 🔚 Browser closed after all tests.
+11:47:27.616 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started Home Responsive Test*
+11:47:29.547 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+11:47:44.090 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 🔚 Browser closed after all tests.
+11:49:03.118 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started Home Responsive Test*
+11:49:05.129 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+11:49:19.531 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/null_375x812_20250428_114919.png
+11:49:19.532 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+11:49:19.862 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (768, 1024)
+11:49:34.264 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/null_768x1024_20250428_114934.png
+11:49:34.264 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (768, 1024)
+11:49:34.336 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (1024, 768)
+11:49:46.564 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/null_1024x768_20250428_114946.png
+11:49:46.564 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (1024, 768)
+11:49:46.884 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (1440, 900)
+11:50:00.716 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/null_1440x900_20250428_115000.png
+11:50:00.717 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (1440, 900)
+11:50:00.717 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished Home Responsive Test*
+11:50:01.035 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+11:50:16.286 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/HomePageTest_375x812_20250428_115016.png
+11:50:16.286 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+11:50:16.606 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (768, 1024)
+11:50:30.953 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/HomePageTest_768x1024_20250428_115030.png
+11:50:30.954 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (768, 1024)
+11:50:30.993 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (1024, 768)
+11:50:43.176 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/HomePageTest_1024x768_20250428_115042.png
+11:50:43.176 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (1024, 768)
+11:50:43.494 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (1440, 900)
+11:50:57.245 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/HomePageTest_1440x900_20250428_115056.png
+11:50:57.245 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (1440, 900)
+11:50:57.565 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 🔚 Browser closed after all tests.
+12:00:07.058 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started Home Responsive Test*
+12:00:08.515 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:00:09.044 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started Home Responsive Test*
+12:00:10.495 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:00:22.817 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 🔚 Browser closed after all tests.
+12:00:23.194 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/null_375x812_20250428_120022.png
+12:00:23.194 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:00:23.527 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (768, 1024)
+12:00:26.184 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 🔚 Browser closed after all tests.
+12:00:37.676 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started Home Responsive Test*
+12:00:39.080 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:00:53.582 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/null_375x812_20250428_120053.png
+12:00:53.583 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:00:53.909 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (768, 1024)
+12:01:08.338 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/null_768x1024_20250428_120108.png
+12:01:08.338 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (768, 1024)
+12:01:08.384 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (1024, 768)
+12:01:20.634 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/null_1024x768_20250428_120120.png
+12:01:20.635 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (1024, 768)
+12:01:20.953 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (1440, 900)
+12:01:34.763 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/null_1440x900_20250428_120134.png
+12:01:34.764 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (1440, 900)
+12:01:34.764 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished Home Responsive Test*
+12:01:35.083 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:01:50.348 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/HomePageTest_375x812_20250428_120150.png
+12:01:50.348 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:01:50.670 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (768, 1024)
+12:02:05.125 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/HomePageTest_768x1024_20250428_120204.png
+12:02:05.125 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (768, 1024)
+12:02:05.167 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (1024, 768)
+12:02:17.420 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/HomePageTest_1024x768_20250428_120217.png
+12:02:17.421 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (1024, 768)
+12:02:17.741 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (1440, 900)
+12:02:31.497 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/HomePageTest_1440x900_20250428_120231.png
+12:02:31.498 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (1440, 900)
+12:02:31.839 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 🔚 Browser closed after all tests.
+12:08:05.927 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started Home Responsive Test*
+12:08:07.585 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished Home Responsive Test*
+12:08:07.907 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:08:22.362 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/HomePageTest_375x812_20250428_120822.png
+12:08:22.362 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:08:22.708 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (768, 1024)
+12:08:37.104 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/HomePageTest_768x1024_20250428_120836.png
+12:08:37.104 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (768, 1024)
+12:08:37.166 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (1024, 768)
+12:08:49.360 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/HomePageTest_1024x768_20250428_120849.png
+12:08:49.360 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (1024, 768)
+12:08:49.679 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (1440, 900)
+12:09:03.471 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/HomePageTest_1440x900_20250428_120903.png
+12:09:03.472 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (1440, 900)
+12:09:03.480 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started About Us Responsive Test*
+12:09:04.746 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:09:14.647 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/null_375x812_20250428_120914.png
+12:09:14.648 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:09:14.966 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (768, 1024)
+12:09:26.154 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/null_768x1024_20250428_120925.png
+12:09:26.155 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (768, 1024)
+12:09:26.192 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (1024, 768)
+12:09:37.587 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/null_1024x768_20250428_120937.png
+12:09:37.587 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (1024, 768)
+12:09:37.906 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (1440, 900)
+12:09:47.280 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/null_1440x900_20250428_120947.png
+12:09:47.280 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (1440, 900)
+12:09:47.280 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished About Us Responsive Test*
+12:09:47.608 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 🔚 Browser closed after all tests.
+12:11:54.816 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started Home Responsive Test*
+12:11:55.946 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished Home Responsive Test*
+12:11:56.265 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:12:10.646 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/HomePageTest_375x812_2025.04.28_12.12.10.png
+12:12:10.647 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:12:10.971 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (768, 1024)
+12:12:25.393 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/HomePageTest_768x1024_2025.04.28_12.12.25.png
+12:12:25.393 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (768, 1024)
+12:12:25.401 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started About Us Responsive Test*
+12:12:26.300 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished About Us Responsive Test*
+12:12:26.618 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:12:36.544 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/Aboutus_Page_375x812_2025.04.28_12.12.36.png
+12:12:36.545 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:12:36.879 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (768, 1024)
+12:12:48.076 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/Aboutus_Page_768x1024_2025.04.28_12.12.47.png
+12:12:48.076 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (768, 1024)
+12:12:48.418 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 🔚 Browser closed after all tests.
+12:17:04.918 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started Home Responsive Test*
+12:17:06.975 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:17:21.393 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/Home_375x812_2025.04.28_12.17.21.png
+12:17:21.393 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:17:21.396 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished Home Responsive Test*
+12:17:21.401 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started About Us Responsive Test*
+12:17:22.614 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:17:31.432 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/Aboutus_375x812_2025.04.28_12.17.31.png
+12:17:31.432 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:17:31.433 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished About Us Responsive Test*
+12:17:31.750 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 🔚 Browser closed after all tests.
+12:18:37.667 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started Home Responsive Test*
+12:18:39.128 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:18:53.565 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/Home1_375x812_2025.04.28_12.18.53.png
+12:18:53.566 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:18:53.568 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished Home Responsive Test*
+12:18:53.574 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started About Us Responsive Test*
+12:18:54.781 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:19:04.732 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/screenshots/Aboutus_375x812_2025.04.28_12.19.04.png
+12:19:04.732 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:19:04.733 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished About Us Responsive Test*
+12:19:05.058 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 🔚 Browser closed after all tests.
+12:20:52.517 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started Home Responsive Test*
+12:20:54.462 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:21:08.885 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Home_375x812_2025.04.28_12.21.08.png
+12:21:08.886 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:21:08.888 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished Home Responsive Test*
+12:21:08.895 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started About Us Responsive Test*
+12:21:10.145 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:21:20.071 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Aboutus_375x812_2025.04.28_12.21.19.png
+12:21:20.071 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:21:20.072 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished About Us Responsive Test*
+12:21:20.397 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 🔚 Browser closed after all tests.
+12:26:40.661 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started Home Responsive Test*
+12:26:42.207 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:26:56.617 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Home_Page_375x812_2025.04.28_12.26.56.png
+12:26:56.618 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:26:56.620 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished Home Responsive Test*
+12:26:56.626 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started About Us Responsive Test*
+12:26:57.833 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:27:07.802 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Aboutus_Page_375x812_2025.04.28_12.27.07.png
+12:27:07.803 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:27:07.803 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished About Us Responsive Test*
+12:27:08.114 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 🔚 Browser closed after all tests.
+12:32:38.772 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started CarrierHome Responsive Test*
+12:32:40.246 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:32:54.664 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Home_Page_375x812_2025.04.28_12.32.54.png
+12:32:54.664 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:32:54.666 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished CarrierHome Responsive Test*
+12:32:54.672 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started About Us Responsive Test*
+12:32:55.889 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:33:05.813 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Aboutus_Page_375x812_2025.04.28_12.33.05.png
+12:33:05.814 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:33:05.814 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished About Us Responsive Test*
+12:33:06.136 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 🔚 Browser closed after all tests.
+12:38:48.309 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started CarrierHome Responsive Test*
+12:38:50.040 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:39:04.476 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/CarrierHome_375x812_2025.04.28_12.39.04.png
+12:39:04.477 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:39:04.478 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished CarrierHome Responsive Test*
+12:39:04.484 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Started About Us Responsive Test*
+12:39:05.687 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Testing on resolution: (375, 812)
+12:39:15.662 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Aboutus_375x812_2025.04.28_12.39.15.png
+12:39:15.663 [main] INFO  Responsive_Testing.Responsvie_TestingTest - ✅ Tested on resolution: (375, 812)
+12:39:15.663 [main] INFO  Responsive_Testing.Responsvie_TestingTest - *Finished About Us Responsive Test*
+12:39:15.991 [main] INFO  Responsive_Testing.Responsvie_TestingTest - 🔚 Browser closed after all tests.
+11:27:06.365 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Started Home Responsive Test*
+11:27:08.438 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+11:27:11.711 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Home_375x812_2025.04.29_11.27.11.png
+11:27:11.712 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+11:27:11.714 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Finished Home Responsive Test*
+11:27:11.720 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Started Aboutus Responsive Test*
+11:27:12.931 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+11:27:16.058 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Aboutus_375x812_2025.04.29_11.27.16.png
+11:27:16.058 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+11:27:16.059 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Finished Aboutus Responsive Test*
+11:27:16.063 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Started Contact Responsive Test*
+11:27:20.457 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+11:27:23.576 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Contact_375x812_2025.04.29_11.27.23.png
+11:27:23.576 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+11:27:23.577 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Finished Contact Responsive Test*
+11:27:23.589 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Started Login Responsive Test*
+11:27:23.716 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Started Sign Up Responsive Test*
+11:27:23.739 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Started Forgot Password Responsive Test*
+11:27:23.765 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Started Privacy Policy Responsive Test*
+11:27:23.787 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Started Terms and Conditions Responsive Test*
+11:38:10.578 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Started Home Responsive Test*
+11:38:12.302 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+11:38:18.753 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Started Aboutus Responsive Test*
+11:38:18.768 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Started Contact Responsive Test*
+11:38:18.786 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Started Login Responsive Test*
+11:38:18.801 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Started Sign Up Responsive Test*
+11:38:18.815 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Started Forgot Password Responsive Test*
+11:38:18.827 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Started Privacy Policy Responsive Test*
+11:38:18.840 [main] INFO  Responsive_Testing.Website_Responsive_TestingTest - *Started Terms and Conditions Responsive Test*
+10:21:42.121 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Staff Login *
+10:21:48.289 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Staff Logged in*
+10:21:48.296 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff Profile Responsive Test*
+10:21:49.521 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:21:53.994 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff Profile_375x812_2025.05.01_10.21.53.png
+10:21:53.995 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:21:53.998 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff Profile Responsive Test*
+10:21:54.007 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff Dashboard Responsive Test*
+10:21:55.220 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:22:01.732 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff Dashboard_375x812_2025.05.01_10.22.01.png
+10:22:01.733 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:22:01.733 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff Dashboard Responsive Test*
+10:22:01.737 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff Trucks Responsive Test*
+10:22:02.946 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:22:07.188 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff Trucks_375x812_2025.05.01_10.22.07.png
+10:22:07.188 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:22:07.188 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff Trucks Responsive Test*
+10:22:07.192 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff Drivers Responsive Test*
+10:22:08.434 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:22:12.696 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff Drivers_375x812_2025.05.01_10.22.12.png
+10:22:12.697 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:22:12.697 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff Drivers Responsive Test*
+10:22:12.702 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff Carrier Responsive Test*
+10:22:13.971 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:22:18.192 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff Carrier_375x812_2025.05.01_10.22.18.png
+10:22:18.192 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:22:18.193 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff Carrier Responsive Test*
+10:22:18.196 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff Tasks Responsive Test*
+10:22:19.409 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:22:23.745 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff Tasks_375x812_2025.05.01_10.22.23.png
+10:22:23.745 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:22:23.746 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff Tasks Responsive Test*
+10:22:23.751 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff All Loads Responsive Test*
+10:22:24.960 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:22:29.198 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff All Loads_375x812_2025.05.01_10.22.29.png
+10:22:29.198 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:22:29.199 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff All Loads Responsive Test*
+10:22:29.205 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff Pending Pickup Loads Responsive Test*
+10:22:30.427 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:22:34.675 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff Pending Pickup Loads_375x812_2025.05.01_10.22.34.png
+10:22:34.675 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:22:34.676 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff Pending Pickup Loads Responsive Test*
+10:22:34.683 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff Pickedup Loads Responsive Test*
+10:22:35.894 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:22:40.133 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff Pickedup Loads_375x812_2025.05.01_10.22.40.png
+10:22:40.134 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:22:40.134 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff Pickedup Loads Responsive Test*
+10:22:40.137 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff Intransit Loads Responsive Test*
+10:22:41.350 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:22:45.568 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff Intransit Loads_375x812_2025.05.01_10.22.45.png
+10:22:45.569 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:22:45.569 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff Intransit Loads Responsive Test*
+10:22:45.573 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff Deliverd Loads Responsive Test*
+10:22:46.786 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:22:51.073 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff Deliverd Loads_375x812_2025.05.01_10.22.51.png
+10:22:51.074 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:22:51.074 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff Deliverd Loads Responsive Test*
+10:22:51.076 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff Shipment Notes Responsive Test*
+10:22:52.923 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:22:57.185 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff Shipment Notes_375x812_2025.05.01_10.22.57.png
+10:22:57.185 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:22:57.186 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff Shipment Notes Responsive Test*
+10:22:57.191 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff Notification Responsive Test*
+10:22:58.464 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:23:02.742 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff Notification_375x812_2025.05.01_10.23.02.png
+10:23:02.743 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:23:02.743 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff Notification Responsive Test*
+10:23:03.153 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 🔚 Browser closed after all tests.
+10:25:02.523 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Staff Login *
+10:25:08.705 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Staff Logged in*
+10:25:08.711 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff Profile Responsive Test*
+10:25:09.974 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:25:14.429 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff Profile_375x812_2025.05.01_10.25.14.png
+10:25:14.429 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:25:14.431 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff Profile Responsive Test*
+10:25:14.442 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff Dashboard Responsive Test*
+10:25:15.676 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:25:22.188 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff Dashboard_375x812_2025.05.01_10.25.22.png
+10:25:22.188 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:25:22.189 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff Dashboard Responsive Test*
+10:25:22.194 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff Trucks Responsive Test*
+10:25:23.402 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:25:27.654 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff Trucks_375x812_2025.05.01_10.25.27.png
+10:25:27.654 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:25:27.655 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff Trucks Responsive Test*
+10:25:28.042 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 🔚 Browser closed after all tests.
+10:26:17.047 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Staff Login *
+10:26:23.291 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Staff Logged in*
+10:26:23.306 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff Profile Responsive Test*
+10:26:24.591 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:26:29.096 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff Profile_375x812_2025.05.01_10.26.29.png
+10:26:29.097 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:26:29.099 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff Profile Responsive Test*
+10:26:29.104 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Started Staff Dashboard Responsive Test*
+10:26:30.342 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Testing on resolution: (375, 812)
+10:26:36.883 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 📸 Saved screenshot at: /home/jc-raj/Music/Automation/KindaProject/src/test/java/Responsive_Testing/Staff Dashboard_375x812_2025.05.01_10.26.36.png
+10:26:36.884 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - ✅ Tested on resolution: (375, 812)
+10:26:36.884 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - *Finished Staff Dashboard Responsive Test*
+10:26:37.266 [main] INFO  Responsive_Testing.Staff_Responsive_TestingTest - 🔚 Browser closed after all tests.

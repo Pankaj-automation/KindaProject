@@ -3,11 +3,19 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Responsive_Testing.Reponsive_TestingTest">
+      <class name="Responsive_Testing.Website_Responsive_TestingTest">
         <methods>
-          <include name="Carrier_Login"/>
+          <include name="QuitBrowser"/>
+          <include name="SignUp"/>
+          <include name="Privacy_Policy"/>
+          <include name="Forgot_Password"/>
+          <include name="Terms_and_Conditions"/>
+          <include name="Home"/>
+          <include name="Login"/>
+          <include name="Contact"/>
+          <include name="Aboutus"/>
         </methods>
-      </class> <!-- Responsive_Testing.Reponsive_TestingTest -->
+      </class> <!-- Responsive_Testing.Website_Responsive_TestingTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
